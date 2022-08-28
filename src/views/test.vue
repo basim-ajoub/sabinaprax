@@ -1,287 +1,293 @@
-<template>
-  <div class="home">
-    <!--Start Features-->
+<div class="card-area">
+<!--Start Card -->
 
-    <div id="services" class="features container">
-      <h2>Services</h2>
-      <p class="line"></p>
-      <div class="row">
-        <div class="service col-sm-5 col-lg-2">
-          <i class="rounded-circle">&#10094;</i>
-          <h3 class="service-title">Architekturvisualisierung</h3>
+<div class="card">
+  <!--Start flip Card-->
+  <div class="flip-card">
+    <div class="flip-card__container">
+      <!--Start flip Card Front Side-->
+      <div class="card-front">
+        <div class="card-front__text card-front__text--disc">
+          <h2 class="card-front__heading">
+            {{cardtitle}}
+          </h2>
+          <p class="card-front__text-price">
+            {{cardcategory}}
+          </p>
         </div>
-        <div class="service col-sm-5 col-lg-2">
-          <i class="rounded-circle">&#10094;</i>
-          <h3 class="service-title">Innenraumvisualisierung</h3>
-        </div>
-        <div class="service col-sm-5 col-lg-2">
-          <i class="rounded-circle">&#10094;</i>
-          <h3 class="service-title">360° Panoramen</h3>
-        </div>
-        <div class="service col-sm-5 col-lg-2">
-          <i class="rounded-circle">&#10094;</i>
-          <h3 class="service-title">3D Grundrisse</h3>
+
+        <div class="card-front__bt">
+          <p class="card-front__text-view">
+            {{$t("View me")}}
+          </p>
         </div>
       </div>
-    </div>
-    <!--End Features-->
-
-    <!--Start OverView-->
-
-    <div id="overview" class="overview text-centir">
-      <h2>OverView</h2>
-      <p class="line"></p>
-      <div class="container">
-        <p>
-          Mithilfe neuester Technologien erhalten Sie bei DAMAS für Ihr
-          Neubauprojekt eine hochwertige 3D Visualisierung
-        </p>
+      <!--End flip Card Front Side-->
+      <!--Start flip Card Back Side-->
+      <div class="card-back">
+        <img class="image__container" :src="image" alt="image">
       </div>
-    </div>
-    <!--End OverView-->
-
-    <!--Start Featured Work-->
-    <div id="featured-work" class="featured-work">
-      <h2>Featured Work</h2>
-      <p class="line"></p>
-      <div class="containier">
-        <ul class="list row">
-          <li class="col-md active">All</li>
-          <li class="col-md">Berlin</li>
-          <li class="col-md">Stautgart</li>
-          <li class="col-md">Hamburg</li>
-        </ul>
-      </div>
-    </div>
-    <!--End Featured Work-->
-
-    <div class="projects-sec">
-      <div class="row">
-        <img class="col-lg" src="project-1.jpg" alt="" />
-        <img class="col-lg" src="project-2.jpg" alt="" />
-        <img class="col-lg" src="project-3.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-4.jpg" alt="" />
-        <img class="col-lg" src="project-5.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-9.jpg" alt="" />
-        <img class="col-lg" src="project-10.jpg" alt="" />
-        <img class="col-lg" src="project-11.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-7.jpg" alt="" />
-        <img class="col-lg" src="project-8.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-14.jpg" alt="" />
-        <img class="col-lg" src="project-13.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-17.jpg" alt="" />
-        <img class="col-lg" src="project-15.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-16.jpg" alt="" />
-        <img class="col-lg" src="project-12.jpg" alt="" />
-        <img class="col-lg" src="project-18.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-19.jpg" alt="" />
-        <img class="col-lg" src="project-20.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-21.jpg" alt="" />
-        <img class="col-lg" src="project-22.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-23.jpg" alt="" />
-        <img class="col-lg" src="project-24.jpg" alt="" />
-        <img class="col-lg" src="project-25.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-26.jpg" alt="" />
-        <img class="col-lg" src="project-27.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-28.jpg" alt="" />
-        <img class="col-lg" src="project-29.jpg" alt="" />
-        <img class="col-lg" src="project-30.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-31.jpg" alt="" />
-        <img class="col-lg" src="project-32.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-33.jpg" alt="" />
-        <img class="col-lg" src="project-34.jpg" alt="" />
-        <img class="col-lg" src="project-35.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-36.jpg" alt="" />
-        <img class="col-lg" src="project-37.jpg" alt="" />
-        <img class="col-lg" src="project-38.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-39.jpg" alt="" />
-        <img class="col-lg" src="project-40.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-41.jpg" alt="" />
-        <img class="col-lg" src="project-42.jpg" alt="" />
-        <img class="col-lg" src="project-43.jpg" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg" src="project-44.jpg" alt="" />
-        <img class="col-lg" src="project-45.jpg" alt="" />
-      </div>
+      <!--End flip Card Back Side-->
     </div>
   </div>
-</template>
+  <!--Start flip Card Inside Side-->
+  <div class="inside-page">
+    <div class="inside-page__container">
+      <h3 class="inside-page__heading">
+        {{cardtitle}}
+      </h3>
+      <p class="inside-page__text">
+        {{carddescription}}
+      </p>
+      <a href="#" class="inside-page__btn inside-page__btn--text">{{$t("Shop Now")}}</a>
+    </div>
+  </div>
 
+</div>
+<!--End flip Card Inside Side-->
+
+</div>
+</template>
 <script>
-// @ is an alias to /src
+import SfButton from "../../atoms/SfButton/SfButton.vue";
+import SfHeading from "../../atoms/SfHeading/SfHeading.vue";
+import SfImage from "../../atoms/SfImage/SfImage.vue";
 export default {
-  name: "HomeView",
-  components: {},
+  name: "SfCard",
+  components: {
+    SfButton,
+    SfHeading,
+    SfImage,
+  },
+  //props: ["image"],
+  props:{
+    image:{
+      type: String,
+      default: "",
+    },
+    cardtitle:{
+      type: String,
+      default: "",
+    },
+    carddescription:{
+      type: String,
+      default:"",
+    },
+    cardcategory:{
+      type:String,
+      default:"",
+    },
+  },
 };
 </script>
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=News+Cycle&display=swap");
-</style>
 <style lang="scss">
-$blueCol: #2c3e50;
-$greenCol: #1b1b1b;
-$LightgreenCol: #181818;
-$pinkCol: #ffadad;
-$whiteCol: #fdf8fa;
-$SkyCol: #1cd6f4;
-$fontSize: 1rem;
-.home {
-  max-width: 99.1%;
-  text-align: center;
-  h2 {
-    margin-bottom: 3rem;
-    font-family: "News Cycle", sans-serif;
-    font-weight: bolder;
-  }
-  .line {
-    background: $SkyCol;
-    width: 4.5rem;
-    height: 0.19rem;
-    margin-top: -2.5%;
-    border-radius: 22%;
-    border-top-right-radius: 100%;
-    margin-left: 47.5%;
-    margin-bottom: 3rem;
-  }
-  .features {
-    margin-top: 100px;
-    max-width: 100%;
-    max-height: 120rem;
+.card-front__heading {
+  font-size: var(--spacer-base);
+  margin-top: var(--spacer-2xs);
+}
+//Star heading for inside Page
+.inside-page__heading {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+//End heading for inside Page
+//Start Heading with Text front below
+.inside-page__heading,
+.card-front__text-view {
+  font-size: 1rem;
+  font-weight: 784;
+  margin-top: 0rem;
+  color: var(--_c-dark-primary);
+}
+//End Heading with Text front conver
+.card-front__text {
+  color: var(--c-white);
+  font-family: var(--font-family--text-containe);
+  letter-spacing: 0.7px;
+}
+//Start pricing text on card front cover
+.card-front__text-price {
+  font-size: 1.2rem;
+  margin-top: -0.2rem;
+}
+//End pricing text on card front cover
+//Start For inside bake text
+.inside-page__text {
+  color: var(--_c-dark-primary);
+  height: 6rem;
+  overflow-x: auto;
+}
+//End For inside bake text
+.inside-page__btn {
+  background-color: transparent;
+  border: 3px solid var(--_c-dark-primary);
+  border-radius: 10%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 0.7rem 0.75rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  width: 80%;
+  z-index: 10;
+  font-family: var(--font-family--text-containe);
+  &::before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(0);
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    z-index: -1;
   }
 }
-.container .row {
+.inside-page__btn--text {
+  border-color: var(--_c-dark-primary);
+  color: var(--_c-dark-primary);
+  &::before {
+    background-color:var(--_c-paige-primary);
+  }
+}
+.inside-page__btn:hover {
+  color: var(--c-white);
+  &:hover::before {
+    transform: scaleY(1);
+  }
+}
+//Sarte Conatiner
+.card-area {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
   justify-content: space-evenly;
+  padding: var(--spacer-sm);
 }
-
-.service {
-  background: $greenCol;
-  margin-bottom: 50px;
-  padding: 15px;
-  cursor: pointer;
-  border-radius: 3%;
-
-  i {
-    background: $SkyCol;
-    color: $whiteCol;
-
-    padding: 5px 15px 5px 5px;
-    font-size: 30px;
-    margin-top: 70px;
+//End Container
+.card {
+  height: 15rem;
+  position: relative;
+  transition: all 1s ease;
+  width: 15rem;
+}
+//Start outer container of flip card
+.flip-card {
+  height: 15rem;
+  perspective: 100rem;
+  position: absolute;
+  right: 0;
+  transition: 1s ease-in-out;
+  visibility: hidden;
+  width: 15rem;
+  z-index: 20;
+}
+//End outer container of flip card
+//Start to cange the situation of visibilty of the flip card to visbile from hidden
+.flip-card > * {
+  visibility: visible;
+}//End to cange the situation of visibilty of the flip card to visbile from hidden
+.flip-card__container {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  transform-origin: left;
+  @include for-mobile{
+    transform-origin: bottom;//flip bottom
   }
-  h3,
-  p {
-    color: $whiteCol;
+  transform-style: preserve-3d;//make transform to 3d form origin left
+  transition: all 1s ease;
+  width: 100%;
+}
+//Start to hide the conatin of front or back card
+.card-front,.card-back {
+  backface-visibility: hidden;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+//Start style front card
+.card-front {
+  background-color: var(--c-white);
+  height: 15rem;
+  width: 15rem;
+}
+//End style front card
+.card-front__text {
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);//shape ^
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  justify-content: center;
+  padding: calc(var(--spacer-xs) + var(--spacer-2xs));
+}
+.card-front__text--disc {
+  background: linear-gradient(to bottom,var(--_c-braun-primary),var(--_c-paige-primary));
+}
+.card-front__bt {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+//Start Image ocntainer
+.image__container{
+  height: auto;
+  height: 99%;
+  object-fit: cover;
+  width: 100%;
+}//End Image ocntainer
+//Start Inside Page
+.inside-page {
+  background-color: var(--c-white);
+  height: 100%;
+  padding: 0rem;
+  position: absolute;
+  right: 0;
+  transition: 1s ease-in-out;
+  width: 15rem;
+  z-index: 1;
+}
+//End Inside Page
+.inside-page__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.card-back {
+  background-color: var(--c-white);
+  @include for-desktop{
+    transform: rotateY(180deg);
   }
-  h3 {
-    margin-top: 15px;
+  @include for-mobile{
+    transform: rotateX(180deg);
   }
 }
-.overview {
-  height: 300px;
-}
-.featured-work {
-  .list {
-    list-style-type: none;
-    padding: 100px 0px;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
-    li {
-      padding: 10px;
-      border: 1px solid $blueCol;
-      margin-left: 10px;
-      cursor: pointer;
-      -webkit-transition: all 0.3s ease-in-out;
-
-      -moz-transition: all 0.3s ease-in-out;
-
-      -o-transition: all 0.3s ease-in-out;
-    }
-    li.active {
-      background: $greenCol;
-      color: $whiteCol;
-    }
-    li:hover {
-      color: $whiteCol;
-      background: $greenCol;
-    }
+//Start Card Function
+.card:hover {
+  box-shadow:-.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.75);
+  width: 30rem;//to move the next card a side
+  height: 15rem;
+  @include for-mobile{//for mobile to macimaize the height to filp to bottom
+    width: 15rem;
+    height: 30rem;
   }
 }
-
-//Start Projects Section
-.service-title {
-  font-size: $fontSize;
-}
-.projects-sec {
-  img {
-    width: 20rem;
-    height: 20rem;
-    margin-bottom: 2rem;
-    padding-right: 0;
-    cursor: pointer;
+.card:hover .flip-card__container {
+  @include for-desktop{
+    transform: rotateY(-180deg);//for desk top to flip left
+  }
+  @include for-mobile{
+    transform: rotateX(-180deg);//for mobile top to flip bottom
   }
 }
-@media (max-width: 900px) {
-  .home .line {
-    margin-left: 45.5%;
-  }
-  .featured-work {
-    .list {
-      margin-left: 0.05rem;
-      margin-right: 0rem;
-      li {
-        margin-left: 0;
-      }
-    }
-  }
-  .projects-sec {
-    img {
-      width: 26rem;
-    }
-  }
-}
-@media (max-width: 700px) {
-  .home .line {
-    margin-left: 41.5%;
-  }
-  .projects-sec {
-    img {
-      width: 100%;
-    }
-  }
-}
-
-//End Projects Section
 </style>
+Footer

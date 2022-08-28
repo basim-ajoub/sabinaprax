@@ -4,16 +4,16 @@
       <div class="container nav-container">
         <div class="container-fluid row">
           <div class="logo-container col-md-12 col-lg-6">
-            <div class="row">
-              <div class="logo-name col-md-6">
-                <img class="img-logo" src="DAMAS-2.jpg" alt="image" />
-                <a class="navbar-brand" href="#">
-                  <span class="brand-name-1">SABINA</span><br />
-                  <span class="brand-name-2">Praxis</span>
+            <div class="row col-lg-6 col-sm-12">
+              <div class="logo-name row col-lg-12 col-sm-6">
+                <img class="img-logo col-5" src="DAMAS-2.jpg" alt="image" />
+                <a class="navbar-brand col-6" href="#">
+                  <span class="brand-name-1">SABINE HAHM</span><br />
+                  <span class="brand-name-2">Mithilfe Mithilfe</span>
                 </a>
               </div>
               <button
-                class="navbar-toggler btn-outline-success col-md-6"
+                class="navbar-toggler btn-outline-success col-md-6 col-sm-6"
                 data-bs-toggle="collapse"
                 data-bs-target="#nav-btn"
                 aria-controls="#nav-btn"
@@ -47,7 +47,7 @@
       <div class="overlay"></div>
       <transition-group class="img-container" name="fade" tag="div">
         <div v-for="i in [currentIndex]" :key="i">
-          <img :src="currentImg" />
+          <img class="slider-img" :src="currentImg" />
           <h1 class="title-text">{{ currentTitle }}</h1>
         </div>
       </transition-group>
@@ -66,24 +66,22 @@
               <img src="DAMAS-2.jpg" alt="img-logo" />
               <h2>
                 <a class="navbar-brand" href="#">
-                  <span class="brand-name-1">DAMAS</span><br />
-                  <span class="brand-name-2">3D Visiualisirung</span>
+                  <span class="brand-name-1">Sabine Hahm</span><br />
+                  <span class="brand-name-2">Mithilfe Mithilfe</span>
                 </a>
               </h2>
               <p>
-                Mithilfe neuester Technologien erhalten Sie bei DAMAS für Ihr
-                Neubauprojekt eine hochwertige 3D Visualisierung
+                Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="map-container">
-              <h2>Our Location</h2>
+              <h2>Standort</h2>
               <div class="location-window">
                 <iframe
                   class="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.5853698147152!2d13.322581415807562!3d52.52284237981468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8511118e4694b%3A0xe597423cfaceea3f!2sPascalstra%C3%9Fe%206%2C%2010587%20Berlin!5e0!3m2!1sen!2sde!4v1646951973111!5m2!1sen!2sde"
-                  style="border: 0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6673359080555!2d13.182737799999998!3d52.37645179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85ebf7ac8a765%3A0x560bb7549b4cd811!2sAlte%20Feldmark%2011A%2C%2014532%20Stahnsdorf!5e0!3m2!1sen!2sde!4v1661696115280!5m2!1sen!2sde"                  style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
                 ></iframe>
@@ -92,11 +90,11 @@
           </div>
           <div class="col-md-4">
             <div class="contact-container">
-              <h2>Contact Us</h2>
+              <h2>Kontakt</h2>
               <ul class="list">
-                <li>Adresse :<span>Pascalstraße 06. 10587 Berlin</span></li>
-                <li>Handy :<span>+ 49 (0) 331 704 901 39</span></li>
-                <li>Email :<span>info@damas.de</span></li>
+                <li class="fw-bold">Adresse: <span class="fw-normal"> Alte Feldmark 11a, 14532 Stahnsdorf </span>.</li>
+                <li class="fw-bold">Telefonnummer: <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.</li>
+                <li class="fw-bold">Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.</li>
               </ul>
             </div>
           </div>
@@ -110,8 +108,8 @@ export default {
   name: "app",
   data() {
     return {
-      images: ["slide-1.jpg", "slide-2.jpg", "slide-3.jpg"],
-      title: ["Innenraumvisualisierung", "360° Panoramen", "3D Grundrisse"],
+      images: ["slider-1.png", "slider-2.png", "slider-3.png"],
+      title: ["Komplementäre Physiotherapie", "Traditionelle Chinesische Medizin", "NordicWalking"],
       timer: null,
       currentIndex: 0,
     };
@@ -325,7 +323,6 @@ img {
   left: 0;
   z-index: 11;
 }
-
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.507);
@@ -385,6 +382,17 @@ img {
   .contact-container,
   .company-info {
     margin-bottom: 5rem;
+  }
+}
+.slider-img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: center;
+}
+.fw-bold {
+  color: white !important;
+  span {
+    color: $LightgreenCol !important;
   }
 }
 </style>
