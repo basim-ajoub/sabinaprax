@@ -5,15 +5,17 @@
         <div class="container-fluid row">
           <div class="logo-container col-md-12 col-lg-6">
             <div class="row col-lg-6 col-sm-12">
-              <div class="logo-name row col-lg-12 col-sm-6">
-                <img class="img-logo col-5" src="DAMAS-2.jpg" alt="image" />
-                <a class="navbar-brand col-6" href="#">
+              <div class="logo-name row col-lg-12 col-sm-10">
+                <!--<img class="img-logo col-5" src="" alt="" />-->
+                <a class="navbar-brand col-lg-6 col-sm-12 col-md-6" href="#">
                   <span class="brand-name-1">SABINE HAHM</span><br />
-                  <span class="brand-name-2">Mithilfe Mithilfe</span>
+                  <span class="brand-name-2"
+                    >Physiotherapeutin und Heilpraktikerin</span
+                  >
                 </a>
               </div>
               <button
-                class="navbar-toggler btn-outline-success col-md-6 col-sm-6"
+                class="navbar-toggler btn-outline-success col-md-2 col-sm-2"
                 data-bs-toggle="collapse"
                 data-bs-target="#nav-btn"
                 aria-controls="#nav-btn"
@@ -30,13 +32,43 @@
                 <router-link class="router-link" to="/">StartSeite</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services"> Leistungen </a>
+                <div class="dropdown show">
+                  <a
+                    class="btn btn-secondary dropdown-toggle nav-link"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Leistungen
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Massagen</a>
+                    <a class="dropdown-item" href="#">Manuelle Therapie</a>
+                    <a class="dropdown-item" href="#">
+                      Kinesiologisches Taping
+                    </a>
+                    <a class="dropdown-item" href="#">Schröpfen</a>
+                    <a class="dropdown-item" href="#">PMR nach Jakobson</a>
+                    <a class="dropdown-item" href="#">Manuelle Lymphdrainage</a>
+                    <a class="dropdown-item" href="#">Akupunktur, Schröpfen</a>
+                    <a class="dropdown-item" href="#">Arzneimittel</a>
+                    <a class="dropdown-item" href="#">Ernährung</a>
+                    <a class="dropdown-item" href="#">
+                      TUINA - Chinesische Heilmassage
+                    </a>
+                    <a class="dropdown-item" href="#">Nordic Walking</a>
+                    <a class="dropdown-item" href="#">Qigong</a>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#featured-work"> Galarie </a>
+                <a class="nav-link" href="#galarie">Galarie </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer"> kontacte</a>
+                <a class="nav-link" href="#footer">kontakt</a>
               </li>
             </ul>
           </div>
@@ -63,16 +95,15 @@
         <div class="row">
           <div class="col-md-4">
             <div class="company-info text-start">
-              <img src="DAMAS-2.jpg" alt="img-logo" />
               <h2>
                 <a class="navbar-brand" href="#">
                   <span class="brand-name-1">Sabine Hahm</span><br />
-                  <span class="brand-name-2">Mithilfe Mithilfe</span>
+                  <span class="brand-name-2"
+                    >Physiotherapeutin und Heilpraktikerin</span
+                  >
                 </a>
               </h2>
-              <p>
-                Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe Mithilfe
-              </p>
+              <p>Das Herz im Himmel, den Himmel im Herzen.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -81,7 +112,8 @@
               <div class="location-window">
                 <iframe
                   class="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6673359080555!2d13.182737799999998!3d52.37645179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85ebf7ac8a765%3A0x560bb7549b4cd811!2sAlte%20Feldmark%2011A%2C%2014532%20Stahnsdorf!5e0!3m2!1sen!2sde!4v1661696115280!5m2!1sen!2sde"                  style="border: 0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6673359080555!2d13.182737799999998!3d52.37645179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85ebf7ac8a765%3A0x560bb7549b4cd811!2sAlte%20Feldmark%2011A%2C%2014532%20Stahnsdorf!5e0!3m2!1sen!2sde!4v1661696115280!5m2!1sen!2sde"
+                  style="border: 0"
                   allowfullscreen=""
                   loading="lazy"
                 ></iframe>
@@ -92,9 +124,35 @@
             <div class="contact-container">
               <h2>Kontakt</h2>
               <ul class="list">
-                <li class="fw-bold">Adresse: <span class="fw-normal"> Alte Feldmark 11a, 14532 Stahnsdorf </span>.</li>
-                <li class="fw-bold">Telefonnummer: <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.</li>
-                <li class="fw-bold">Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.</li>
+                <li class="fw-bold">
+                  Adresse:
+                  <span class="fw-normal">
+                    Alte Feldmark 11a, 14532 Stahnsdorf </span
+                  >.
+                </li>
+                <li class="fw-bold">
+                  Telefonnummer:
+                  <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.
+                </li>
+                <li class="fw-bold">
+                  Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.
+                </li>
+              </ul>
+            </div>
+            <div class="contact-container">
+              <h2>Öffnungszeiten</h2>
+              <ul class="list">
+                <li class="fw-bold">
+                  Montag:
+                  <span class="fw-normal">7.00 Uhr - 19.00 Uhr</span>.
+                </li>
+                <li class="fw-bold">
+                  Telefonnummer:
+                  <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.
+                </li>
+                <li class="fw-bold">
+                  Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.
+                </li>
               </ul>
             </div>
           </div>
@@ -108,15 +166,20 @@ export default {
   name: "app",
   data() {
     return {
-      images: ["slider-1.png", "slider-2.png", "slider-3.png"],
-      title: ["Komplementäre Physiotherapie", "Traditionelle Chinesische Medizin", "NordicWalking"],
+      images: ["slider-1.png", "slider-2.png", "slider-3.png", "slider-4.png"],
+      title: [
+        "Komplementäre Physiotherapie",
+        "Traditionelle Chinesische Medizin",
+        "NordicWalking",
+        "QiGong",
+      ],
       timer: null,
       currentIndex: 0,
     };
   },
   methods: {
     startSlide: function () {
-      this.timer = setInterval(this.next, 5000);
+      setInterval(this.next, 5000);
     },
 
     next: function () {
@@ -237,6 +300,9 @@ $fontSizeTitle: 2rem;
   }
   .navbar-toggler {
     background: $SkyCol;
+    height: 4rem;
+    width: 4rem;
+    margin-top: 0.5rem;
   }
   .navbar-nav {
     text-transform: uppercase;
@@ -253,7 +319,7 @@ $fontSizeTitle: 2rem;
       transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out;
       &.router-link-exact-active {
-        color: $SkyCol;
+        color: black;
       }
     }
     a {
@@ -394,5 +460,12 @@ img {
   span {
     color: $LightgreenCol !important;
   }
+}
+#carousel-inner,
+#slider,
+#carousel-item-1,
+carousel-item-2,
+#carousel-item-3 {
+  transition: 0.8s ease-in-out;
 }
 </style>

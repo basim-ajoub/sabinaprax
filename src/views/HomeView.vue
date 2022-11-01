@@ -15,6 +15,7 @@
           individuelle Lebenssituation. So können wir gemeinsam ein Konzept für
           ihre Gesundheit und ihr Wohlbefinden erarbeiten.
         </p>
+        <a class="cv-link" href="#">Cv</a>
       </div>
     </div>
     <!--End OverView-->
@@ -35,8 +36,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-massagen">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-massagen"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Massagen</p>
@@ -69,8 +72,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-manuelle-therapie">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-manuelle-therapie"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Manuelle Therapie</p>
@@ -105,8 +110,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-kinesiologisches-taping">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-kinesiologisches-taping"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Kinesiologisches Taping</p>
@@ -139,8 +146,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-schröpfen">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-schröpfen"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Schröpfen</p>
@@ -175,8 +184,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-pmr-nach-jakobsonn">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-pmr-nach-jakobsonn"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">PMR nach Jakobson</p>
@@ -185,7 +196,11 @@
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container" src="project-1.png" alt="image" />
+                <img
+                  class="image__container resize-img-bottom"
+                  src="project-4.jpg"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -213,17 +228,23 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-nordic-walking">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-manuelle-lymphdrainage"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Nordic Walking</p>
+                  <p class="card-front__text-view">Manuelle Lymphdrainage</p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container" src="project-5.png" alt="image" />
+                <img
+                  class="image__container"
+                  src="project-12.jpg"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -231,10 +252,10 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Nordic Walking</h3>
+              <h3 class="inside-page__heading">Manuelle Lymphdrainage</h3>
               <p class="inside-page__text">
-                Starten sie bewegt in den Tag und erlernen sie die Technik des
-                Nordic Walkings in Kleinstgruppen.
+                Ist eine sanfte Massagetechnik zur Behandlung von sekundären und
+                primären Lymphödeme.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -249,11 +270,13 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-traditionelle-chinesische-medizin">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-traditionelle-chinesische-medizin"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Akupunktur</p>
+                  <p class="card-front__text-view">Akupunktur, Schröpfen</p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
@@ -267,7 +290,7 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Akupunktur</h3>
+              <h3 class="inside-page__heading">Akupunktur, Schröpfen</h3>
               <p class="inside-page__text">
                 Gezielt gesetzte Reize mit Akupunkturnadeln kann Funktionen von
                 Organen, Muskeln, Haut und Sehnen beeinflussen. Vielfach
@@ -294,8 +317,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-arzneimittel">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-arzneimittel"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Arzneimittel</p>
@@ -304,7 +329,11 @@
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container resize-img" src="project-9.png" alt="image" />
+                <img
+                  class="image__container resize-img"
+                  src="project-9.png"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -331,8 +360,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-ernährung">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-ernährung"
+                >
+                  <h2 class="card-front__heading">VSieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Ernährung</p>
@@ -341,7 +372,11 @@
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container" src="project-10.png" alt="image" />
+                <img
+                  class="image__container"
+                  src="project-10.png"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -366,17 +401,25 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-tiuana">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-tiuana"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">TIUNA - Chinesische Heilmassage</p>
+                  <p class="card-front__text-view">
+                    TUINA - Chinesische Heilmassage
+                  </p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container" src="project-11.png" alt="image" />
+                <img
+                  class="image__container"
+                  src="project-11.png"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -385,7 +428,7 @@
           <div class="inside-page">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">
-                TIUNA - Chinesische Heilmassage
+                TUINA - Chinesische Heilmassage
               </h3>
               <p class="inside-page__text">
                 Mit speziellen Griftechniken und Akupressur lindert die TUINA,
@@ -408,17 +451,19 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-manuelle-lymphdrainage">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-nordic-walking"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Manuelle Lymphdrainage</p>
+                  <p class="card-front__text-view">Nordic Walking</p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container" src="project-12.png" alt="image" />
+                <img class="image__container" src="project-5.png" alt="image" />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -426,9 +471,10 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Manuelle Lymphdrainage</h3>
+              <h3 class="inside-page__heading">Nordic Walking</h3>
               <p class="inside-page__text">
-                Ist eine sanfte Massagetechnik zur Behandlung von sekundären und primären Lymphödeme.
+                Starten sie bewegt in den Tag und erlernen sie die Technik des
+                Nordic Walkings in Kleinstgruppen.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -441,8 +487,10 @@
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
               <div class="card-front">
-                <div class="card-front__text card-front__text--disc service-qigong">
-                  <h2 class="card-front__heading">View me</h2>
+                <div
+                  class="card-front__text card-front__text--disc service-qigong"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
                   <p class="card-front__text-view">Qigong</p>
@@ -451,7 +499,11 @@
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img class="image__container resize-img-top" src="project-13.png" alt="image" />
+                <img
+                  class="image__container resize-img-top"
+                  src="project-13.png"
+                  alt="image"
+                />
               </div>
               <!--End flip Card Back Side-->
             </div>
@@ -474,7 +526,7 @@
       </div>
     </div>
     <!--End Features-->
-    <div class="projects-sec">
+    <div id="galarie" class="projects-sec">
       <h2>Galarie</h2>
       <p class="line"></p>
       <div class="row">
@@ -497,8 +549,8 @@
       </div>
       <div class="row">
         <img class="col-lg resize-img-center" src="project-16.jpg" alt="" />
-        <img class="col-lg resize-img" src="project-8.png" alt="" />
-        <img class="col-lg resize-img" src="project-11.png" alt="" />
+        <img class="col-lg resize-img" src="project-4.jpg" alt="" />
+        <img class="col-lg resize-img" src="project-12.jpg" alt="" />
       </div>
     </div>
   </div>
@@ -594,6 +646,18 @@ $fontSizeTitle: 2rem;
   letter-spacing: 2px;
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
+  text-align: center;
+  @media (max-width: 850px) {
+    width: 88% !important;
+  }
+  .cv-link {
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    color: $whiteCol;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background: $blueCol;
+  }
 }
 .featured-work {
   .list {
@@ -713,6 +777,8 @@ $fontSizeTitle: 2rem;
   color: $LightgreenCol;
   height: fit-content;
   overflow-x: auto;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
 }
 
 //End For inside bake text
@@ -888,7 +954,7 @@ $fontSizeTitle: 2rem;
   background-image: url("../../public/project-3.png");
 }
 .service-pmr-nach-jakobsonn {
-  background-image: url("../../public/project-3.png");
+  background-image: url("../../public/project-4.jpg");
 }
 .service-nordic-walking {
   background-image: url("../../public/project-5.png");
@@ -912,7 +978,7 @@ $fontSizeTitle: 2rem;
   background-image: url("../../public/project-11.png");
 }
 .service-manuelle-lymphdrainage {
-  //background-image: url("../../public/project-12.png");
+  background-image: url("../../public/project-12.jpg");
 }
 .service-qigong {
   background-image: url("../../public/project-13.png");
@@ -933,6 +999,9 @@ $fontSizeTitle: 2rem;
   height: 100%;
   object-fit: cover;
   width: 100%;
+}
+.resize-img-bottom {
+  object-position: bottom;
 }
 
 //End Image ocntainer
