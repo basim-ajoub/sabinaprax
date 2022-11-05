@@ -15,7 +15,6 @@
           individuelle Lebenssituation. So können wir gemeinsam ein Konzept für
           ihre Gesundheit und ihr Wohlbefinden erarbeiten.
         </p>
-        <a class="cv-link" href="#">Cv</a>
       </div>
     </div>
     <!--End OverView-->
@@ -54,7 +53,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="massagen">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Massagen</h3>
               <p class="inside-page__text">
@@ -90,7 +89,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="therapie">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Manuelle Therapie</h3>
               <p class="inside-page__text">
@@ -128,7 +127,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="kinesiologisches">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Kinesiologisches Taping</h3>
               <p class="inside-page__text">
@@ -164,7 +163,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="schröpfen">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Schröpfen</h3>
               <p class="inside-page__text">
@@ -206,7 +205,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="pmr">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">
                 PMR nach Jakobson (Progressive Muskuläre Relaxation)
@@ -250,7 +249,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="lymphdrainage">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Manuelle Lymphdrainage</h3>
               <p class="inside-page__text">
@@ -288,7 +287,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="akupunktur">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Akupunktur, Schröpfen</h3>
               <p class="inside-page__text">
@@ -339,7 +338,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="arzneimittel">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Arzneimittel (Kräuter)</h3>
               <p class="inside-page__text">
@@ -382,7 +381,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="ernährung">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Ernährung</h3>
               <p class="inside-page__text">
@@ -425,7 +424,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id=" tuina">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">
                 TUINA - Chinesische Heilmassage
@@ -469,7 +468,7 @@
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page">
+          <div class="inside-page" id="nordic">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Nordic Walking</h3>
               <p class="inside-page__text">
@@ -486,7 +485,7 @@
           <div class="flip-card">
             <div class="flip-card__container">
               <!--Start flip Card Front Side-->
-              <div class="card-front">
+              <div class="card-front" id="qigong">
                 <div
                   class="card-front__text card-front__text--disc service-qigong"
                 >
@@ -553,6 +552,80 @@
         <img class="col-lg resize-img" src="project-12.jpg" alt="" />
       </div>
     </div>
+    <div class="about-me-container" id="about-me">
+      <div class="about-me-box">
+        <div class="about-img-container">
+          <div class="img-box">
+            <img src="uber-mich-white.jpg" />
+          </div>
+        </div>
+        <div class="about-discretion">
+          <h2>Sabine Hahm</h2>
+          <p class="line"></p>
+          <p class="about-me-text">
+            Geboren wurde ich 1971 in Kleinmachnow. Aufgewachsen und zur Schule
+            gegangen bin ich in Teltow. Mit meiner Familie zog ich vor 16 Jahren
+            nach Stahnsdorf/Kienwerder. Meine Ausbildung zur Physiotherapeutin
+            absolvierte ich, nach einer fünfjährigen Erziehungspause, an der der
+            der Schule für Physiotherapie in Potsdam. Vorerst arbeitete ich als
+            mobile Physiotherapeutin in Seniorenheimen unserer Region. Seit über
+            10 Jahren bin ich im Bereich Rehabilitation für psycho/somatische
+            Erkrankungen, Kardiologie und post/longCovid tätig. Meine Ausbildung
+            zur Heilpraktikerin konnte ich 2017 mit der amtsärztlichen
+            Überprüfung in Potsdam erfolgreich beenden. Weiterbildungen spielten
+            und spielen in meinem Leben eine zentrale Rolle. Vorerst absolvierte
+            ich Fortbildungen in Manueller Lymphdrainage, Nordic Walking,
+            komplementären physiotherapeutischen Therapien an der medizinischen
+            Hochschule in Hannover. Später entdeckte ich die Leidenschaft an der
+            traditionellen chinesischen Medizin. Es folgten Ausbildungen in der
+            TUINA, Akupunktur, Narbenentstörung, Schröpfen an der Deutschen
+            TUINA Akademie in Leipzig, und dem Qigong am ShenMen-Institut.
+            Ernährung und Kräutertherapien sind ein weiterer Schwerpunkt. Seit
+            11/2022 betreibe ich nebenberuflich meine eigene Praxis für
+            komplementäre Physiotherapeutische Therapie und traditioneller
+            chinesischen Medizin in Stahnsdorf/ Kienwerder, Alte Feldmark 11a.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="open-time-map">
+      <div class="map-container">
+        <h2>Standort</h2>
+        <p class="line"></p>
+        <div class="location-window">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6673359080555!2d13.182737799999998!3d52.37645179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85ebf7ac8a765%3A0x560bb7549b4cd811!2sAlte%20Feldmark%2011A%2C%2014532%20Stahnsdorf!5e0!3m2!1sen!2sde!4v1661696115280!5m2!1sen!2sde"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <div class="open-time-container">
+        <h2>Öffnungszeiten</h2>
+        <p class="line"></p>
+        <ul class="list-open-time">
+          <li class="fw-bold">
+            Montag:
+            <span class="fw-normal">7.00 Uhr - 19.00 Uhr</span>.
+          </li>
+          <li class="fw-bold">
+            Dienstag:
+            <span class="fw-normal"> 17.00 Uhr - 19.00 Uhr </span>.
+          </li>
+          <li class="fw-bold">
+            Mittwoch : <span class="fw-normal"> nach Vereinbarung</span>.
+          </li>
+          <li class="fw-bold">
+            Donnerstag: <span class="fw-normal"> 17.00 Uhr – 19.00 Uhr </span>.
+          </li>
+          <li class="fw-bold">
+            Freitag: <span class="fw-normal"> nach Vereinbarung</span>.
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -581,6 +654,9 @@ $fontSizeTitle: 2rem;
     margin-bottom: 3rem;
     font-family: "News Cycle", sans-serif;
     font-weight: bolder;
+    @media (max-width: 850px) {
+      margin-bottom: 1.5rem;
+    }
   }
 
   .line {
@@ -1080,10 +1156,6 @@ $fontSizeTitle: 2rem;
       width: 0%;
     }
   }
-  @media (max-width: 900px) {
-    width: 100%;
-    height: 46rem !important;
-  }
 }
 
 .card:hover .flip-card__container {
@@ -1114,4 +1186,148 @@ $fontSizeTitle: 2rem;
   }
 }
 //End Projects Section
+//Start About me Section
+.about-me-container {
+  border-bottom: 2px solid #d60028;
+  //background: #dfdfdf;
+  background: #ffffff;
+  margin-top: 8rem;
+  h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 4rem;
+    color: #d60028;
+    margin-bottom: 2rem;
+  }
+  .line {
+    background: #d60028;
+    width: 10rem;
+    margin-left: 42.5%;
+    @media (max-width: 1000px) {
+      margin-left: 38.5%;
+    }
+    @media (max-width: 600px) {
+      margin-left: 31.5%;
+    }
+  }
+  .about-me-box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+    .about-img-container {
+      width: 35%;
+      margin-bottom: 0;
+      background: #f6f6f6;
+      margin: 0 !important;
+      @media (max-width: 1000px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        .img-box {
+          width: 70%;
+          margin-bottom: 0 !important;
+          @media (max-width: 500px) {
+            width: 85%;
+          }
+        }
+      }
+      img {
+        object-fit: cover;
+        @media (max-width: 1000px) {
+          border-radius: 30%;
+          mix-blend-mode: multiply;
+          margin-bottom: -11rem;
+        }
+      }
+    }
+    .about-discretion {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+      width: 65%;
+      right: 0;
+      padding-top: 3rem;
+      position: absolute;
+      @media (max-width: 1000px) {
+        position: initial;
+        width: 100%;
+        margin-top: 11rem;
+        margin-bottom: 3rem;
+      }
+      .about-me-text {
+        font-weight: bold;
+        width: 100%;
+        text-align: justify;
+        letter-spacing: 1.3px;
+      }
+    }
+  }
+}
+//End About me Section
+//open time and map
+.open-time-map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  .map-container {
+    @media (max-width: 900px) {
+      width: 80%;
+      order: 2;
+
+    }
+    .line {
+      margin-left: 38.5%;
+    }
+    .location-window {
+      width: 100%;
+      height: 14rem;
+      border: 3px solid $blueCol;
+      @media (max-width: 900px) {
+        height: 20rem;
+      }
+      .map {
+        width: 100%;
+        height: 100%;
+        border-radius: 8%;
+      }
+    }
+  }
+  .open-time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 900px) {
+      margin-bottom: 5rem;
+    }
+    .line {
+      margin-left: 3.5%;
+    }
+    .list-open-time {
+      list-style-type: none;
+      text-align: left;
+      margin-left: 0 !important;
+      li {
+        color: $blueCol !important;
+
+        span {
+          margin-left: 1rem;
+          color: $greenCol !important;
+        }
+      }
+    }
+  }
+}
 </style>

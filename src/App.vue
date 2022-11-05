@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container nav-container">
         <div class="container-fluid row">
-          <div class="logo-container col-md-12 col-lg-6">
+          <div class="logo-container col-md-12 col-lg-5">
             <div class="row col-lg-6 col-sm-12">
               <div class="logo-name row col-lg-12 col-sm-10">
                 <!--<img class="img-logo col-5" src="" alt="" />-->
@@ -26,41 +26,64 @@
               </button>
             </div>
           </div>
-          <div class="navbar-collapse collapse col-lg-6" id="nav-btn">
+          <div class="navbar-collapse collapse col-lg-7" id="nav-btn">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <router-link class="router-link" to="/">StartSeite</router-link>
+                <a class="nav-link" href="#about-me">Über mich </a>
               </li>
               <li class="nav-item">
-                <div class="dropdown show">
+                <div class="dropdown">
                   <a
-                    class="btn btn-secondary dropdown-toggle nav-link"
+                    class="btn dropdown-toggle"
                     href="#"
                     role="button"
-                    id="dropdownMenuLink"
+                    id="dropdownMenuButton"
                     data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
+                    @click="dropdownButton()"
                   >
                     Leistungen
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Massagen</a>
-                    <a class="dropdown-item" href="#">Manuelle Therapie</a>
-                    <a class="dropdown-item" href="#">
+                  <div class="dropdown-menu" id="dropdownMenuLink">
+                    <a class="dropdown-item" href="#massagen">Massagen</a>
+                    <a class="dropdown-item" href="#therapie"
+                      >Manuelle Therapie</a
+                    >
+                    <a class="dropdown-item" href="#kinesiologisches">
                       Kinesiologisches Taping
                     </a>
-                    <a class="dropdown-item" href="#">Schröpfen</a>
-                    <a class="dropdown-item" href="#">PMR nach Jakobson</a>
-                    <a class="dropdown-item" href="#">Manuelle Lymphdrainage</a>
-                    <a class="dropdown-item" href="#">Akupunktur, Schröpfen</a>
-                    <a class="dropdown-item" href="#">Arzneimittel</a>
-                    <a class="dropdown-item" href="#">Ernährung</a>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="#schröpfen">Schröpfen</a>
+                    <a class="dropdown-item" href="#lymphdrainage"
+                      >Manuelle Lymphdrainage</a
+                    >
+                    <a class="dropdown-item" href="#akupunktur"
+                      >Akupunktur, Schröpfen</a
+                    >
+                    <a class="dropdown-item" href="#arzneimittel"
+                      >Arzneimittel</a
+                    >
+                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
+                    <a class="dropdown-item" href="#chinesische">
                       TUINA - Chinesische Heilmassage
                     </a>
-                    <a class="dropdown-item" href="#">Nordic Walking</a>
-                    <a class="dropdown-item" href="#">Qigong</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a
+                    class="btn dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    @click="dropdownKurseButton()"
+                  >
+                    Kurse
+                  </a>
+                  <div class="dropdown-menu" id="dropdownKurseLink">
+                    <a class="dropdown-item" href="#pmr">PMR</a>
+                    <a class="dropdown-item" href="#nordic">Nordic Walking</a>
+                    <a class="dropdown-item" href="#qigong">Qigong</a>
                   </div>
                 </div>
               </li>
@@ -69,6 +92,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#footer">kontakt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Öffnungszeiten</a>
               </li>
             </ul>
           </div>
@@ -92,8 +118,8 @@
 
     <div id="footer" class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
+        <div class="row footer-row">
+          <div class="footer-company-logo col-md-6 col-lg-6 col-sm-12">
             <div class="company-info text-start">
               <h2>
                 <a class="navbar-brand" href="#">
@@ -106,24 +132,20 @@
               <p>Das Herz im Himmel, den Himmel im Herzen.</p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="map-container">
-              <h2>Standort</h2>
-              <div class="location-window">
-                <iframe
-                  class="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.6673359080555!2d13.182737799999998!3d52.37645179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85ebf7ac8a765%3A0x560bb7549b4cd811!2sAlte%20Feldmark%2011A%2C%2014532%20Stahnsdorf!5e0!3m2!1sen!2sde!4v1661696115280!5m2!1sen!2sde"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
+
+          <div class="footer-contact col-md-6 col-lg-6 col-sm-12">
             <div class="contact-container">
               <h2>Kontakt</h2>
+              <p class="line"></p>
               <ul class="list">
+                <li class="fw-bold">
+                  Email:
+                  <span class="fw-normal">
+                    <a href="mailto: kp-tcm.hahm@gmail.com"
+                      >kp-tcm.hahm@gmail.com</a
+                    ></span
+                  >.
+                </li>
                 <li class="fw-bold">
                   Adresse:
                   <span class="fw-normal">
@@ -132,26 +154,11 @@
                 </li>
                 <li class="fw-bold">
                   Telefonnummer:
-                  <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.
-                </li>
-                <li class="fw-bold">
-                  Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.
-                </li>
-              </ul>
-            </div>
-            <div class="contact-container">
-              <h2>Öffnungszeiten</h2>
-              <ul class="list">
-                <li class="fw-bold">
-                  Montag:
-                  <span class="fw-normal">7.00 Uhr - 19.00 Uhr</span>.
-                </li>
-                <li class="fw-bold">
-                  Telefonnummer:
-                  <span class="fw-normal"> +49 (0) 15 773 584 878 </span>.
-                </li>
-                <li class="fw-bold">
-                  Email: <span class="fw-normal"> kp-tcm.hahm@gmail.com </span>.
+                  <span class="fw-normal"
+                    ><a href="tel:+4915773584878"
+                      >+49 (0) 15 773 584 878</a
+                    > </span
+                  >.
                 </li>
               </ul>
             </div>
@@ -187,6 +194,28 @@ export default {
     },
     prev: function () {
       this.currentIndex -= 1;
+    },
+    dropdownButton: function () {
+      let $dropdownMenu = document.getElementById("dropdownMenuLink");
+      let $dropdownKurse = document.getElementById("dropdownKurseLink");
+      // eslint-disable-next-line no-empty
+      if ($dropdownMenu.style.display === "block") {
+        $dropdownMenu.style.display = "none";
+      } else {
+        $dropdownKurse.style.display = "none";
+        $dropdownMenu.style.display = "block";
+      }
+    },
+    dropdownKurseButton: function () {
+      let $dropdownMenu = document.getElementById("dropdownMenuLink");
+      let $dropdownKurse = document.getElementById("dropdownKurseLink");
+      // eslint-disable-next-line no-empty
+      if ($dropdownKurse.style.display === "block") {
+        $dropdownKurse.style.display = "none";
+      } else {
+        $dropdownMenu.style.display = "none";
+        $dropdownKurse.style.display = "block";
+      }
     },
   },
   mounted() {
@@ -261,6 +290,9 @@ $fontSizeTitle: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: start;
+  @media (max-width: 1000px) {
+    margin-bottom: 0.5rem;
+  }
 }
 #slider {
   //background: red;
@@ -294,15 +326,51 @@ $fontSizeTitle: 2rem;
   background: #6d9886;
   background: linear-gradient(to top left, $greenCol, $LightgreenCol);
   border-bottom: 2.5px solid $SkyCol;
-
+  .dropdown {
+    .dropdown-toggle {
+      border: none;
+    }
+    .dropdown-menu {
+      background: white;
+      background: rgba(246, 246, 246, 0.81);
+      @media (max-width: 1000px) {
+        background: none;
+      }
+      border: none;
+      a {
+        padding: 0.5rem;
+        color: $blueCol;
+        border-bottom: 1px solid rgba(44, 62, 80, 0.27);
+        margin-left: 0;
+        &:hover {
+          background: white;
+        }
+      }
+    }
+  }
   .nav-container {
     max-width: 100%;
+    .container-fluid {
+      width: 100%;
+      .navbar-collapse {
+        @media (max-width: 1000px) {
+          margin-top: 1rem;
+        }
+      }
+    }
   }
   .navbar-toggler {
     background: $SkyCol;
-    height: 4rem;
-    width: 4rem;
+    height: 2rem;
+    width: 2rem;
     margin-top: 0.5rem;
+    padding: 0;
+    @media (max-width: 1000px) {
+      margin-left: 85%;
+    }
+    navbar-toggler-icon {
+      font-size: 0.75rem;
+    }
   }
   .navbar-nav {
     text-transform: uppercase;
@@ -398,6 +466,16 @@ img {
   background: $greenCol;
   max-height: 120rem;
   padding: 4rem 0rem;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 900px) {
+    .footer-row {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
   p,
   li {
     color: $SkyCol;
@@ -408,37 +486,62 @@ img {
     font-family: "News Cycle", sans-serif;
     letter-spacing: 0.1rem;
   }
-  .company-info {
-    max-height: 70rem;
-    img {
-      width: 4rem;
-      height: 4rem;
-      margin-bottom: 1rem;
+  .footer-company-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 900px) {
+      order: 2;
     }
-    .navbar-brand {
-      font-size: 2rem;
-      .brand-name-2 {
-        font-size: 1.25rem;
+    .company-info {
+      max-height: 70rem;
+      p {
+        color: $blueCol !important;
+        font-weight: bold;
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        margin-bottom: 1rem;
+      }
+
+      .navbar-brand {
+        font-size: 2rem;
+
+        .brand-name-2 {
+          font-size: 1.25rem;
+        }
       }
     }
   }
   .contact-container {
-    .list {
-      margin-top: 3rem;
-      margin-left: 1.5rem;
-      text-align: left;
-      list-style-type: none;
-    }
-  }
-  .map-container {
-    .location-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 900px) {
       width: 100%;
-      height: 12rem;
-      .map {
-        width: 100%;
-        height: 100%;
-        margin-top: 1rem;
-        border-radius: 8%;
+      align-items: start;
+    }
+    .line {
+      background: $blueCol;
+      width: 4.5rem;
+      height: 0.19rem;
+      margin-top: 0.5%;
+      border-radius: 22%;
+      border-top-right-radius: 100%;
+      margin-left: 0.5%;
+      @media (max-width: 900px) {
+        margin-left: 4.5%;
+      }
+    }
+    .list {
+      margin-top: 2rem;
+      text-align: left !important;
+      margin-left: -2rem !important;
+      list-style-type: none !important;
+      li {
+        text-align: left;
       }
     }
   }
@@ -457,8 +560,16 @@ img {
 }
 .fw-bold {
   color: white !important;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   span {
-    color: $LightgreenCol !important;
+    margin-left: 0.2rem;
+    color: $blueCol !important;
+    font-weight: bold !important;
+  }
+  a {
+    text-decoration: none;
+    color: $blueCol !important;
   }
 }
 #carousel-inner,
