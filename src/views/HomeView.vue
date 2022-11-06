@@ -523,6 +523,50 @@
           </div>
         </div>
       </div>
+      <div class="card-area">
+        <div class="card service">
+          <!--Start flip Card-->
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <!--Start flip Card Front Side-->
+              <div class="card-front">
+                <div
+                  class="card-front__text card-front__text--disc service-gutscheine"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
+                </div>
+                <div class="card-front__bt">
+                  <p class="card-front__text-view">Geschenk-Gutscheine</p>
+                </div>
+              </div>
+              <!--End flip Card Front Side-->
+              <!--Start flip Card Back Side-->
+              <div class="card-back">
+                <img
+                  class="image__container"
+                  src="project-17.jpg"
+                  alt="image"
+                />
+              </div>
+              <!--End flip Card Back Side-->
+            </div>
+          </div>
+          <!--Start flip Card Inside Side-->
+          <div class="inside-page" id="gutscheine">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading">Geschenk-Gutscheine</h3>
+              <p class="inside-page__text">
+                Überraschen Sie ihre Lieben zu Weihnachten, Geburtstag oder um
+                Danke zu sagen. Mit einem Wellnessgutschein für eine klassische
+                Massage, HotStone-Massage, einer Tuina Prävention oder zur
+                Physiotherapie.
+              </p>
+              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
+            </div>
+            <!--End flip Card Inside Side-->
+          </div>
+        </div>
+      </div>
     </div>
     <!--End Features-->
     <div id="galarie" class="projects-sec">
@@ -588,7 +632,7 @@
         </div>
       </div>
     </div>
-    <div class="open-time-map">
+    <div class="open-time-map" id="open-time-map">
       <div class="map-container">
         <h2>Standort</h2>
         <p class="line"></p>
@@ -615,7 +659,7 @@
             <span class="fw-normal"> 17.00 Uhr - 19.00 Uhr </span>.
           </li>
           <li class="fw-bold">
-            Mittwoch : <span class="fw-normal"> nach Vereinbarung</span>.
+            Mittwoch: <span class="fw-normal"> nach Vereinbarung</span>.
           </li>
           <li class="fw-bold">
             Donnerstag: <span class="fw-normal"> 17.00 Uhr – 19.00 Uhr </span>.
@@ -1059,6 +1103,9 @@ $fontSizeTitle: 2rem;
 .service-qigong {
   background-image: url("../../public/project-13.png");
 }
+.service-gutscheine {
+  background-image: url("../../public/project-17.jpg");
+}
 .card-front__bt {
   align-items: center;
   display: flex;
@@ -1225,7 +1272,7 @@ $fontSizeTitle: 2rem;
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         .img-box {
           width: 70%;
           margin-bottom: 0 !important;
@@ -1240,6 +1287,7 @@ $fontSizeTitle: 2rem;
           border-radius: 30%;
           mix-blend-mode: multiply;
           margin-bottom: -11rem;
+          height: 100%;
         }
       }
     }
@@ -1261,6 +1309,9 @@ $fontSizeTitle: 2rem;
         width: 100%;
         text-align: justify;
         letter-spacing: 1.3px;
+        @media (max-width: 1000px) {
+          letter-spacing: 0;
+        }
       }
     }
   }
@@ -1285,7 +1336,6 @@ $fontSizeTitle: 2rem;
     @media (max-width: 900px) {
       width: 80%;
       order: 2;
-
     }
     .line {
       margin-left: 38.5%;

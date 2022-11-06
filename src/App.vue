@@ -29,7 +29,7 @@
           <div class="navbar-collapse collapse col-lg-7" id="nav-btn">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#about-me">Über mich </a>
+                <a class="nav-link" href="#about-me">Über mich</a>
               </li>
               <li class="nav-item">
                 <div class="dropdown">
@@ -65,6 +65,9 @@
                     <a class="dropdown-item" href="#chinesische">
                       TUINA - Chinesische Heilmassage
                     </a>
+                    <a class="dropdown-item" href="#gutscheine">
+                      Geschenk-Gutscheine
+                    </a>
                   </div>
                 </div>
               </li>
@@ -74,8 +77,6 @@
                     class="btn dropdown-toggle"
                     href="#"
                     role="button"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
                     @click="dropdownKurseButton()"
                   >
                     Kurse
@@ -94,7 +95,7 @@
                 <a class="nav-link" href="#footer">kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Öffnungszeiten</a>
+                <a class="nav-link" href="#open-time-map">Öffnungszeiten</a>
               </li>
             </ul>
           </div>
@@ -289,7 +290,7 @@ $fontSizeTitle: 2rem;
 .logo-container {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   @media (max-width: 1000px) {
     margin-bottom: 0.5rem;
   }
@@ -352,6 +353,7 @@ $fontSizeTitle: 2rem;
     max-width: 100%;
     .container-fluid {
       width: 100%;
+      justify-content: flex-start !important;
       .navbar-collapse {
         @media (max-width: 1000px) {
           margin-top: 1rem;
@@ -400,8 +402,8 @@ $fontSizeTitle: 2rem;
     }
     a,
     .router-link {
-      font-size: 15px;
-      margin-left: 20px;
+      font-size: 1rem;
+      margin-left: 0.2rem;
     }
   }
 }
