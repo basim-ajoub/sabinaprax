@@ -58,13 +58,14 @@
                     <a class="dropdown-item" href="#akupunktur"
                       >Akupunktur, Schröpfen</a
                     >
+                    <a class="dropdown-item" href="#moxibution">Moxibution</a>
                     <a class="dropdown-item" href="#arzneimittel"
-                      >Arzneimittel</a
+                      >Chinesische Kräutertherapie</a
                     >
-                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
                     <a class="dropdown-item" href="#chinesische">
                       TUINA - Chinesische Heilmassage
                     </a>
+                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
                     <a class="dropdown-item" href="#gutscheine">
                       Geschenk-Gutscheine
                     </a>
@@ -85,6 +86,11 @@
                     <a class="dropdown-item" href="#pmr">PMR</a>
                     <a class="dropdown-item" href="#nordic">Nordic Walking</a>
                     <a class="dropdown-item" href="#qigong">Qigong</a>
+                    <a
+                      class="dropdown-item"
+                      href="https://drive.google.com/file/d/158Ca8PGd3MM_LLDPUYlhmg6iK_UfhgDy/preview"
+                      >Preise & Erklärung</a
+                    >
                   </div>
                 </div>
               </li>
@@ -104,12 +110,12 @@
     </nav>
     <div id="slider" class="slider">
       <div class="overlay"></div>
-      <transition-group class="img-container" name="fade" tag="div">
+      <div class="img-container" tag="div">
         <div v-for="i in [currentIndex]" :key="i">
-          <img class="slider-img" :src="currentImg" />
+          <img id="slider-img" class="slider-img" :src="currentImg" />
           <h1 class="title-text">{{ currentTitle }}</h1>
         </div>
-      </transition-group>
+      </div>
       <a class="prev" @click="prev" href="#">&#10094; </a>
       <a class="next" @click="next" href="#">&#10095; </a>
     </div>
@@ -143,26 +149,27 @@
                   Email:
                   <span class="fw-normal">
                     <a href="mailto: kp-tcm.hahm@gmail.com"
-                      >kp-tcm.hahm@gmail.com</a
+                      >kp-tcm.hahm@gmail.com.</a
                     ></span
-                  >.
+                  >
                 </li>
                 <li class="fw-bold">
                   Adresse:
                   <span class="fw-normal">
-                    Alte Feldmark 11a, 14532 Stahnsdorf </span
-                  >.
+                    Alte Feldmark 11a, 14532 Stahnsdorf.</span
+                  >
                 </li>
                 <li class="fw-bold">
                   Telefonnummer:
                   <span class="fw-normal"
-                    ><a href="tel:+4915773584878"
-                      >+49 (0) 15 773 584 878</a
-                    > </span
-                  >.
+                    ><a href="tel:+4915773584878">+49 (0) 15 773 584 878.</a>
+                  </span>
                 </li>
               </ul>
             </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 rights">
+            <p class="text-white">©2022 SABINE HAHM All Rights Reserved</p>
           </div>
         </div>
       </div>
@@ -189,7 +196,6 @@ export default {
     startSlide: function () {
       setInterval(this.next, 5000);
     },
-
     next: function () {
       this.currentIndex += 1;
     },
@@ -468,9 +474,11 @@ img {
   background: $greenCol;
   max-height: 120rem;
   padding: 4rem 0rem;
+  padding-bottom: 0.5rem;
   @media (max-width: 900px) {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
   }
   @media (max-width: 900px) {
     .footer-row {
@@ -547,6 +555,11 @@ img {
       }
     }
   }
+  .rights {
+    order: 3;
+    padding-top: 3rem;
+    color: white !important;
+  }
 }
 @media (max-width: 700px) {
   .map-container,
@@ -559,6 +572,7 @@ img {
   aspect-ratio: 3/4;
   object-fit: cover;
   object-position: center;
+  transition: ease-in-out 1s;
 }
 .fw-bold {
   color: white !important;

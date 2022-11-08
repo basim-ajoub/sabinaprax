@@ -5,7 +5,7 @@
       <h2>Einleitung</h2>
       <p class="line"></p>
       <div class="container overview-text">
-        <p>
+        <p class="overview-text-content">
           Willkommen in meiner Praxis für komplementäre-physiotherapeutische und
           traditionellen chinesischen Medizin. Ich freu mich über ihren Besuch
           und ihr Interesse an alternativen Therapien. Nachfolgend habe ich
@@ -322,7 +322,9 @@
                   <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Arzneimittel</p>
+                  <p class="card-front__text-view">
+                    Chinesische Kräutertherapie
+                  </p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
@@ -360,34 +362,30 @@
               <!--Start flip Card Front Side-->
               <div class="card-front">
                 <div
-                  class="card-front__text card-front__text--disc service-ernährung"
+                  class="card-front__text card-front__text--disc service-moxibution"
                 >
-                  <h2 class="card-front__heading">VSieh mich an</h2>
+                  <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Ernährung</p>
+                  <p class="card-front__text-view">Moxibution</p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
               <!--Start flip Card Back Side-->
               <div class="card-back">
-                <img
-                  class="image__container"
-                  src="project-10.png"
-                  alt="image"
-                />
+                <img class="image__container" src="project-7.png" alt="image" />
               </div>
               <!--End flip Card Back Side-->
             </div>
           </div>
           <!--Start flip Card Inside Side-->
-          <div class="inside-page" id="ernährung">
+          <div class="inside-page" id="moxibution">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Ernährung</h3>
+              <h3 class="inside-page__heading">Moxibution</h3>
               <p class="inside-page__text">
-                Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
-                lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
-                gleicht aus, ist Genuss und Freude.
+                Moxakraut wird aus den getrockneten Blättern der Artemisia
+                Vulgaris (Beifuss) gewonnen. Die eindringende Wärme stimuliert
+                das Qi und regt somit denn Energiefluss an.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -451,6 +449,47 @@
               <!--Start flip Card Front Side-->
               <div class="card-front">
                 <div
+                  class="card-front__text card-front__text--disc service-ernährung"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
+                </div>
+                <div class="card-front__bt">
+                  <p class="card-front__text-view">Ernährung</p>
+                </div>
+              </div>
+              <!--End flip Card Front Side-->
+              <!--Start flip Card Back Side-->
+              <div class="card-back">
+                <img
+                  class="image__container"
+                  src="project-10.png"
+                  alt="image"
+                />
+              </div>
+              <!--End flip Card Back Side-->
+            </div>
+          </div>
+          <!--Start flip Card Inside Side-->
+          <div class="inside-page" id="ernährung">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading">Ernährung</h3>
+              <p class="inside-page__text">
+                Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
+                lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
+                gleicht aus, ist Genuss und Freude.
+              </p>
+              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
+            </div>
+            <!--End flip Card Inside Side-->
+          </div>
+        </div>
+        <div class="card service">
+          <!--Start flip Card-->
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <!--Start flip Card Front Side-->
+              <div class="card-front">
+                <div
                   class="card-front__text card-front__text--disc service-nordic-walking"
                 >
                   <h2 class="card-front__heading">Sieh mich an</h2>
@@ -480,6 +519,8 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
+      </div>
+      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -522,8 +563,6 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
-      </div>
-      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -573,7 +612,11 @@
       <h2>Galarie</h2>
       <p class="line"></p>
       <div class="row">
-        <img class="col-lg resize-img" src="project-13.png" alt="" />
+        <img
+          class="col-lg resize-img resize-img-top"
+          src="project-13.png"
+          alt=""
+        />
         <img class="col-lg resize-img" src="project-2.png" alt="" />
         <img class="col-lg resize-img" src="project-14.png" alt="" />
       </div>
@@ -582,7 +625,7 @@
         <img class="col-lg resize-img-center" src="project-5.png" alt="" />
       </div>
       <div class="row">
-        <img class="col-lg resize-img-center" src="project-9.png" alt="" />
+        <img class="col-lg resize-img-bottom" src="project-9.png" alt="" />
         <img class="col-lg resize-img" src="project-10.png" alt="" />
         <img class="col-lg resize-img" src="project-11.png" alt="" />
       </div>
@@ -610,8 +653,8 @@
             Geboren wurde ich 1971 in Kleinmachnow. Aufgewachsen und zur Schule
             gegangen bin ich in Teltow. Mit meiner Familie zog ich vor 16 Jahren
             nach Stahnsdorf/Kienwerder. Meine Ausbildung zur Physiotherapeutin
-            absolvierte ich, nach einer fünfjährigen Erziehungspause, an der der
-            der Schule für Physiotherapie in Potsdam. Vorerst arbeitete ich als
+            absolvierte ich, nach einer fünfjährigen Erziehungspause, an der
+            Schule für Physiotherapie in Potsdam. Vorerst arbeitete ich als
             mobile Physiotherapeutin in Seniorenheimen unserer Region. Seit über
             10 Jahren bin ich im Bereich Rehabilitation für psycho/somatische
             Erkrankungen, Kardiologie und post/longCovid tätig. Meine Ausbildung
@@ -649,25 +692,18 @@
       <div class="open-time-container">
         <h2>Öffnungszeiten</h2>
         <p class="line"></p>
-        <ul class="list-open-time">
-          <li class="fw-bold">
-            Montag:
-            <span class="fw-normal">7.00 Uhr - 19.00 Uhr</span>.
-          </li>
-          <li class="fw-bold">
-            Dienstag:
-            <span class="fw-normal"> 17.00 Uhr - 19.00 Uhr </span>.
-          </li>
-          <li class="fw-bold">
-            Mittwoch: <span class="fw-normal"> nach Vereinbarung</span>.
-          </li>
-          <li class="fw-bold">
-            Donnerstag: <span class="fw-normal"> 17.00 Uhr – 19.00 Uhr </span>.
-          </li>
-          <li class="fw-bold">
-            Freitag: <span class="fw-normal"> nach Vereinbarung</span>.
-          </li>
-        </ul>
+        <div class="list-open-time">
+          <div class="row-day fw-bold">Montag:</div>
+          <div class="row-time fw-bold">7.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-day fw-bold">Dienstag:</div>
+          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-day fw-bold">Mittwoch:</div>
+          <div class="row-time fw-bold">nach Vereinbarung.</div>
+          <div class="row-day fw-bold">Donnerstag:</div>
+          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-day fw-bold">Freitag:</div>
+          <div class="row-time fw-bold">nach Vereinbarung.</div>
+        </div>
       </div>
     </div>
   </div>
@@ -769,6 +805,10 @@ $fontSizeTitle: 2rem;
   text-align: center;
   @media (max-width: 850px) {
     width: 88% !important;
+    .overview-text-content {
+      text-align: justify;
+      letter-spacing: 0.4px;
+    }
   }
   .cv-link {
     cursor: pointer;
@@ -817,11 +857,11 @@ $fontSizeTitle: 2rem;
 
 .projects-sec {
   img {
-    width: 20rem;
-    height: 20rem;
     margin-bottom: 2rem;
     padding-right: 0;
     cursor: pointer;
+    height: 26rem;
+    object-fit: cover;
   }
 }
 
@@ -839,14 +879,9 @@ $fontSizeTitle: 2rem;
       }
     }
   }
-  .projects-sec {
-    img {
-      width: 26rem;
-    }
-  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .home .line {
     margin-left: 41.5%;
   }
@@ -872,9 +907,9 @@ $fontSizeTitle: 2rem;
 //Start Heading with Text front below
 .inside-page__heading,
 .card-front__text-view {
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 784;
-  margin-top: 0rem;
+  margin: 0rem;
   color: $blueCol;
 }
 
@@ -970,7 +1005,8 @@ $fontSizeTitle: 2rem;
   background: #f6f6f6 !important;
   border: none !important;
   @media (max-width: 900px) {
-    width: 80%;
+    width: 95%;
+    z-index: 5;
   }
 }
 
@@ -1075,12 +1111,14 @@ $fontSizeTitle: 2rem;
 }
 .service-pmr-nach-jakobsonn {
   background-image: url("../../public/project-4.jpg");
+  background-position-y: bottom;
 }
 .service-nordic-walking {
   background-image: url("../../public/project-5.png");
 }
 .service-traditionelle-chinesische-medizin {
   background-image: url("../../public/project-6.png");
+  background-position: initial !important;
 }
 .service-moxibution {
   background-image: url("../../public/project-7.png");
@@ -1102,6 +1140,7 @@ $fontSizeTitle: 2rem;
 }
 .service-qigong {
   background-image: url("../../public/project-13.png");
+  background-position-y: 21%;
 }
 .service-gutscheine {
   background-image: url("../../public/project-17.jpg");
@@ -1138,6 +1177,9 @@ $fontSizeTitle: 2rem;
   transition: 1s ease-in-out;
   width: 100%;
   z-index: 1;
+  @media (max-width: 900px) {
+    height: 23rem !important;
+  }
 }
 
 //End Inside Page
@@ -1148,9 +1190,16 @@ $fontSizeTitle: 2rem;
   height: 100%;
   text-align: center;
   justify-content: center;
+  @media (max-width: 900px) {
+    height: 23rem;
+    font-size: 1.5rem;
+  }
 }
-.inside-page__container p {
+.inside-page__container .inside-page__text {
   color: black;
+  @media (max-width: 900px) {
+    font-size: 13px;
+  }
 }
 .inside-page__container h3 {
   color: black;
@@ -1177,6 +1226,12 @@ $fontSizeTitle: 2rem;
   height: 15rem;
   box-shadow: 2px 4px 4px 6px;
   box-shadow: 3px 3px #6d8b74, -1em 0 0.4em $LightgreenCol;
+  @media (max-width: 900px) {
+    width: 95%;
+    transition: 0.4s ease-in;
+    margin-bottom: 24rem;
+    z-index: 19;
+  }
   .card-front__text h2 {
     color: white;
     transition: 1s ease-in-out;
@@ -1227,6 +1282,7 @@ $fontSizeTitle: 2rem;
   width: 99%;
   contain: content;
   font-size: 12px;
+  padding-left: 1rem !important;
   li {
     float: left;
     margin-left: 1rem;
@@ -1366,16 +1422,17 @@ $fontSizeTitle: 2rem;
       margin-left: 3.5%;
     }
     .list-open-time {
-      list-style-type: none;
-      text-align: left;
-      margin-left: 0 !important;
-      li {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto 1fr;
+      grid-auto-flow: row;
+      max-width: 500px;
+      .row-day {
+        text-align: left;
         color: $blueCol !important;
-
-        span {
-          margin-left: 1rem;
-          color: $greenCol !important;
-        }
+      }
+      .row-time {
+        color: $greenCol !important;
       }
     }
   }
