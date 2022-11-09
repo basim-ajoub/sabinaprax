@@ -613,30 +613,30 @@
       <p class="line"></p>
       <div class="row">
         <img
-          class="col-lg resize-img resize-img-top"
+          class="col-lg-4 resize-img resize-img-top"
           src="project-13.png"
           alt=""
         />
-        <img class="col-lg resize-img" src="project-2.png" alt="" />
-        <img class="col-lg resize-img" src="project-14.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-2.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-14.png" alt="" />
       </div>
       <div class="row">
-        <img class="col-lg resize-img-center" src="project-15.png" alt="" />
-        <img class="col-lg resize-img-center" src="project-5.png" alt="" />
+        <img class="col-lg-6 resize-img-center" src="project-15.png" alt="" />
+        <img class="col-lg-6 resize-img-center" src="project-5.png" alt="" />
       </div>
       <div class="row">
-        <img class="col-lg resize-img-bottom" src="project-9.png" alt="" />
-        <img class="col-lg resize-img" src="project-10.png" alt="" />
-        <img class="col-lg resize-img" src="project-11.png" alt="" />
+        <img class="col-lg-4 resize-img-bottom" src="project-9.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-10.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-11.png" alt="" />
       </div>
       <div class="row">
-        <img class="col-lg resize-img" src="project-7.png" alt="" />
-        <img class="col-lg resize-img" src="project-8.png" alt="" />
+        <img class="col-lg-6 resize-img" src="project-7.png" alt="" />
+        <img class="col-lg-6 resize-img" src="project-8.png" alt="" />
       </div>
       <div class="row">
-        <img class="col-lg resize-img-center" src="project-16.jpg" alt="" />
-        <img class="col-lg resize-img" src="project-4.jpg" alt="" />
-        <img class="col-lg resize-img" src="project-12.jpg" alt="" />
+        <img class="col-lg-4 resize-img-center" src="project-16.jpg" alt="" />
+        <img class="col-lg-4 resize-img" src="project-4.jpg" alt="" />
+        <img class="col-lg-4 resize-img" src="project-12.jpg" alt="" />
       </div>
     </div>
     <div class="about-me-container" id="about-me">
@@ -1433,6 +1433,9 @@ $fontSizeTitle: 2rem;
       }
       .row-time {
         color: $greenCol !important;
+        @media (max-width: 900px) {
+          font-size: 14px;
+        }
       }
     }
   }

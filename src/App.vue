@@ -3,11 +3,11 @@
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container nav-container">
         <div class="container-fluid row">
-          <div class="logo-container col-md-12 col-lg-5">
-            <div class="row col-lg-6 col-sm-12">
-              <div class="logo-name row col-lg-12 col-sm-10">
+          <div class="logo-container col-md-12 col-lg-5 col-sm-12">
+            <div class="row col-lg-6 col-md-12 col-sm-12">
+              <div class="logo-name row col-lg-12 col-md-10 col-sm-10">
                 <!--<img class="img-logo col-5" src="" alt="" />-->
-                <a class="navbar-brand col-lg-6 col-sm-12 col-md-6" href="#">
+                <a class="navbar-brand col-lg-12 col-sm-12 col-md-12" href="#">
                   <span class="brand-name-1">SABINE HAHM</span><br />
                   <span class="brand-name-2"
                     >Physiotherapeutin und Heilpraktikerin</span
@@ -374,7 +374,7 @@ $fontSizeTitle: 2rem;
     margin-top: 0.5rem;
     padding: 0;
     @media (max-width: 1000px) {
-      margin-left: 85%;
+      margin-left: 65%;
     }
     navbar-toggler-icon {
       font-size: 0.75rem;
