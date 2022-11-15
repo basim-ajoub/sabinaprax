@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!--Developer Basim Ajoub-->
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container nav-container">
         <div class="container-fluid row">
@@ -51,13 +52,12 @@
                     <a class="dropdown-item" href="#kinesiologisches">
                       Kinesiologisches Taping
                     </a>
-                    <a class="dropdown-item" href="#schröpfen">Schröpfen</a>
                     <a class="dropdown-item" href="#lymphdrainage"
                       >Manuelle Lymphdrainage</a
                     >
-                    <a class="dropdown-item" href="#akupunktur"
-                      >Akupunktur, Schröpfen</a
-                    >
+                    <a class="dropdown-item" href="#schröpfen">Schröpfen</a>
+                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
+                    <a class="dropdown-item" href="#akupunktur">Akupunktur</a>
                     <a class="dropdown-item" href="#moxibution">Moxibution</a>
                     <a class="dropdown-item" href="#arzneimittel"
                       >Chinesische Kräutertherapie</a
@@ -65,7 +65,6 @@
                     <a class="dropdown-item" href="#chinesische">
                       TUINA - Chinesische Heilmassage
                     </a>
-                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
                     <a class="dropdown-item" href="#gutscheine">
                       Geschenk-Gutscheine
                     </a>
@@ -88,7 +87,8 @@
                     <a class="dropdown-item" href="#qigong">Qigong</a>
                     <a
                       class="dropdown-item"
-                      href="https://drive.google.com/file/d/158Ca8PGd3MM_LLDPUYlhmg6iK_UfhgDy/preview"
+                      href="https://pdfhost.io/v/AnfS8g8sH_Kurse"
+                      target="_blank"
                       >Preise & Erklärung</a
                     >
                   </div>
@@ -149,20 +149,20 @@
                   Email:
                   <span class="fw-normal">
                     <a href="mailto: kp-tcm.hahm@gmail.com"
-                      >kp-tcm.hahm@gmail.com.</a
+                      >kp-tcm.hahm@gmail.com</a
                     ></span
                   >
                 </li>
                 <li class="fw-bold">
                   Adresse:
                   <span class="fw-normal">
-                    Alte Feldmark 11a, 14532 Stahnsdorf.</span
+                    Alte Feldmark 11a, 14532 Stahnsdorf</span
                   >
                 </li>
                 <li class="fw-bold">
                   Telefonnummer:
                   <span class="fw-normal"
-                    ><a href="tel:+4915773584878">+49 (0) 15 773 584 878.</a>
+                    ><a href="tel:+4915773584878">+49 (0) 15 773 584 878</a>
                   </span>
                 </li>
               </ul>
@@ -325,7 +325,7 @@ $fontSizeTitle: 2rem;
     height: 100%;
     position: absolute;
     z-index: 10;
-    background: rgba(0, 0, 0, 0.589);
+    //change background: rgba(0, 0, 0, 0.589);
   }
 }
 .navbar {

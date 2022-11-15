@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!--Start OverView-->
-    <div id="overview" class="overview text-centir">
+    <div id="overview" class="overview text-centir" hidden>
       <h2>Einleitung</h2>
       <p class="line"></p>
       <div class="container overview-text">
@@ -228,6 +228,49 @@
               <!--Start flip Card Front Side-->
               <div class="card-front">
                 <div
+                  class="card-front__text card-front__text--disc service-ernährung"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
+                </div>
+                <div class="card-front__bt">
+                  <p class="card-front__text-view">Ernährung</p>
+                </div>
+              </div>
+              <!--End flip Card Front Side-->
+              <!--Start flip Card Back Side-->
+              <div class="card-back">
+                <img
+                  class="image__container"
+                  src="project-10.png"
+                  alt="image"
+                />
+              </div>
+              <!--End flip Card Back Side-->
+            </div>
+          </div>
+          <!--Start flip Card Inside Side-->
+          <div class="inside-page" id="ernährung">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading">Ernährung</h3>
+              <p class="inside-page__text">
+                Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
+                lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
+                gleicht aus, ist Genuss und Freude.
+              </p>
+              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
+            </div>
+            <!--End flip Card Inside Side-->
+          </div>
+        </div>
+      </div>
+      <div class="card-area">
+        <div class="card service">
+          <!--Start flip Card-->
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <!--Start flip Card Front Side-->
+              <div class="card-front">
+                <div
                   class="card-front__text card-front__text--disc service-manuelle-lymphdrainage"
                 >
                   <h2 class="card-front__heading">Sieh mich an</h2>
@@ -261,8 +304,6 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
-      </div>
-      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -275,7 +316,7 @@
                   <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Akupunktur, Schröpfen</p>
+                  <p class="card-front__text-view">Akupunktur</p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
@@ -289,7 +330,7 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page" id="akupunktur">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Akupunktur, Schröpfen</h3>
+              <h3 class="inside-page__heading">Akupunktur</h3>
               <p class="inside-page__text">
                 Gezielt gesetzte Reize mit Akupunkturnadeln kann Funktionen von
                 Organen, Muskeln, Haut und Sehnen beeinflussen. Vielfach
@@ -310,6 +351,8 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
+      </div>
+      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -342,7 +385,9 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page" id="arzneimittel">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Arzneimittel (Kräuter)</h3>
+              <h3 class="inside-page__heading">
+                Arzneimittel (Chinesische Kräutertherapie)
+              </h3>
               <p class="inside-page__text">
                 Blätter, Knollen, Pilze, Samen, Wurzeln, Mineralien oder
                 tierische Inhaltsstoffe kennt die TCM. Sie werden als TEE,
@@ -353,8 +398,6 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
-      </div>
-      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -392,6 +435,8 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
+      </div>
+      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -434,49 +479,6 @@
                 Erkrankungen, Kiefergelenkbeschwerden, Gynäkologische
                 Erkrankungen. Als Prävention reguliert sie das vegetative
                 Nervensystem und stärkt somit das Qi und ihr Immunsystem.
-              </p>
-              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
-            </div>
-            <!--End flip Card Inside Side-->
-          </div>
-        </div>
-      </div>
-      <div class="card-area">
-        <div class="card service">
-          <!--Start flip Card-->
-          <div class="flip-card">
-            <div class="flip-card__container">
-              <!--Start flip Card Front Side-->
-              <div class="card-front">
-                <div
-                  class="card-front__text card-front__text--disc service-ernährung"
-                >
-                  <h2 class="card-front__heading">Sieh mich an</h2>
-                </div>
-                <div class="card-front__bt">
-                  <p class="card-front__text-view">Ernährung</p>
-                </div>
-              </div>
-              <!--End flip Card Front Side-->
-              <!--Start flip Card Back Side-->
-              <div class="card-back">
-                <img
-                  class="image__container"
-                  src="project-10.png"
-                  alt="image"
-                />
-              </div>
-              <!--End flip Card Back Side-->
-            </div>
-          </div>
-          <!--Start flip Card Inside Side-->
-          <div class="inside-page" id="ernährung">
-            <div class="inside-page__container">
-              <h3 class="inside-page__heading">Ernährung</h3>
-              <p class="inside-page__text">
-                Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
-                lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
-                gleicht aus, ist Genuss und Freude.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -669,7 +671,7 @@
             TUINA Akademie in Leipzig, und dem Qigong am ShenMen-Institut.
             Ernährung und Kräutertherapien sind ein weiterer Schwerpunkt. Seit
             11/2022 betreibe ich nebenberuflich meine eigene Praxis für
-            komplementäre Physiotherapeutische Therapie und traditioneller
+            komplementäre physiotherapeutische Therapie und traditioneller
             chinesischen Medizin in Stahnsdorf/ Kienwerder, Alte Feldmark 11a.
           </p>
         </div>
@@ -694,15 +696,15 @@
         <p class="line"></p>
         <div class="list-open-time">
           <div class="row-day fw-bold">Montag:</div>
-          <div class="row-time fw-bold">7.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-time fw-bold">7.00 Uhr - 19.00 Uhr</div>
           <div class="row-day fw-bold">Dienstag:</div>
-          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr</div>
           <div class="row-day fw-bold">Mittwoch:</div>
-          <div class="row-time fw-bold">nach Vereinbarung.</div>
+          <div class="row-time fw-bold">nach Vereinbarung</div>
           <div class="row-day fw-bold">Donnerstag:</div>
-          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr.</div>
+          <div class="row-time fw-bold">17.00 Uhr - 19.00 Uhr</div>
           <div class="row-day fw-bold">Freitag:</div>
-          <div class="row-time fw-bold">nach Vereinbarung.</div>
+          <div class="row-time fw-bold">nach Vereinbarung</div>
         </div>
       </div>
     </div>
@@ -1073,7 +1075,7 @@ $fontSizeTitle: 2rem;
     height: 100%;
     width: 100%;
     color: $LightgreenCol;
-    background: rgba(0, 0, 0, 0.38);
+    //change background: rgba(0, 0, 0, 0.38);
     margin: 0 !important;
     align-items: center;
     display: flex;
