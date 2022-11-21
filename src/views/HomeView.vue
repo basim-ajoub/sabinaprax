@@ -146,44 +146,6 @@
               <!--Start flip Card Front Side-->
               <div class="card-front">
                 <div
-                  class="card-front__text card-front__text--disc service-schröpfen"
-                >
-                  <h2 class="card-front__heading">Sieh mich an</h2>
-                </div>
-                <div class="card-front__bt">
-                  <p class="card-front__text-view">Schröpfen</p>
-                </div>
-              </div>
-              <!--End flip Card Front Side-->
-              <!--Start flip Card Back Side-->
-              <div class="card-back">
-                <img class="image__container" src="project-8.png" alt="image" />
-              </div>
-              <!--End flip Card Back Side-->
-            </div>
-          </div>
-          <!--Start flip Card Inside Side-->
-          <div class="inside-page" id="schröpfen">
-            <div class="inside-page__container">
-              <h3 class="inside-page__heading">Schröpfen</h3>
-              <p class="inside-page__text">
-                Mit dem sogenanntem Feuerschröpfen wird Wärme in den Körper
-                eingebracht. Stagnationen werden gelöst, das Qi bewegt.
-              </p>
-              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
-            </div>
-            <!--End flip Card Inside Side-->
-          </div>
-        </div>
-      </div>
-      <div class="card-area">
-        <div class="card service">
-          <!--Start flip Card-->
-          <div class="flip-card">
-            <div class="flip-card__container">
-              <!--Start flip Card Front Side-->
-              <div class="card-front">
-                <div
                   class="card-front__text card-front__text--disc service-pmr-nach-jakobsonn"
                 >
                   <h2 class="card-front__heading">Sieh mich an</h2>
@@ -215,6 +177,44 @@
                 wissenschaftlich belegte Entspannungstechnik, welche durch
                 regelmäßiges Üben in verschiedenen Lebenssituation helfen kann.
                 Erlernbar in Kleinstgruppen (max. 5 Teilnehme).
+              </p>
+              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
+            </div>
+            <!--End flip Card Inside Side-->
+          </div>
+        </div>
+      </div>
+      <div class="card-area">
+        <div class="card service">
+          <!--Start flip Card-->
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <!--Start flip Card Front Side-->
+              <div class="card-front">
+                <div
+                  class="card-front__text card-front__text--disc service-schröpfen"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
+                </div>
+                <div class="card-front__bt">
+                  <p class="card-front__text-view">Schröpfen</p>
+                </div>
+              </div>
+              <!--End flip Card Front Side-->
+              <!--Start flip Card Back Side-->
+              <div class="card-back">
+                <img class="image__container" src="project-8.png" alt="image" />
+              </div>
+              <!--End flip Card Back Side-->
+            </div>
+          </div>
+          <!--Start flip Card Inside Side-->
+          <div class="inside-page" id="schröpfen">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading">Schröpfen</h3>
+              <p class="inside-page__text">
+                Mit dem sogenanntem Feuerschröpfen wird Wärme in den Körper
+                eingebracht. Stagnationen werden gelöst, das Qi bewegt.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -385,9 +385,7 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page" id="arzneimittel">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">
-                Arzneimittel (Chinesische Kräutertherapie)
-              </h3>
+              <h3 class="inside-page__heading">Chinesische Kräutertherapie</h3>
               <p class="inside-page__text">
                 Blätter, Knollen, Pilze, Samen, Wurzeln, Mineralien oder
                 tierische Inhaltsstoffe kennt die TCM. Sie werden als TEE,

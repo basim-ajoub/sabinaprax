@@ -68,6 +68,12 @@
                     <a class="dropdown-item" href="#gutscheine">
                       Geschenk-Gutscheine
                     </a>
+                    <a
+                      class="dropdown-item"
+                      href="https://pdfhost.io/v/UrAK6a0~v_Preise_PDF"
+                      target="_blank"
+                      >Preise</a
+                    >
                   </div>
                 </div>
               </li>
@@ -89,7 +95,13 @@
                       class="dropdown-item"
                       href="https://pdfhost.io/v/AnfS8g8sH_Kurse"
                       target="_blank"
-                      >Preise & Erklärung</a
+                      >Erklärung</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="https://pdfhost.io/v/UrAK6a0~v_Preise_PDF"
+                      target="_blank"
+                      >Preise</a
                     >
                   </div>
                 </div>
@@ -148,8 +160,8 @@
                 <li class="fw-bold">
                   Email:
                   <span class="fw-normal">
-                    <a href="mailto: kp-tcm.hahm@gmail.com"
-                      >kp-tcm.hahm@gmail.com</a
+                    <a href="mailto: kp.tcm.hahm@gmail.com" target="_blank"
+                      >kp.tcm.hahm@gmail.com</a
                     ></span
                   >
                 </li>
