@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!--Start OverView-->
-    <div id="overview" class="overview text-centir" hidden>
+    <div id="overview" class="overview text-centir">
       <h2>Einleitung</h2>
       <p class="line"></p>
       <div class="container overview-text">
@@ -11,10 +11,17 @@
           und ihr Interesse an alternativen Therapien. Nachfolgend habe ich
           ihnen alle Informationen zusammengestellt, die sie brauchen, um sich
           vertrauensvoll mit ihren Beschwerden an mich zu wenden. Im Mittelpunkt
-          meiner Arbeit, stehen auch ihre körperliche Konstitution und ihre
-          individuelle Lebenssituation. So können wir gemeinsam ein Konzept für
-          ihre Gesundheit und ihr Wohlbefinden erarbeiten.
+          meiner Arbeit, stehen nicht nur ihre körperlichen Beschwerden, sondern
+          auch ihre auch ihre körperliche Konstitution und ihre individuelle
+          Lebenssituation. So können wir gemeinsam ein Konzept für ihre
+          Gesundheit und ihr Wohlbefinden erarbeiten.
         </p>
+        <a
+          class="about-praxis"
+          href="https://pdfhost.io/v/fHBNRC00m_Einleitung_PDF"
+          target="_blank"
+          >Mehr ></a
+        >
       </div>
     </div>
     <!--End OverView-->
@@ -146,6 +153,48 @@
               <!--Start flip Card Front Side-->
               <div class="card-front">
                 <div
+                  class="card-front__text card-front__text--disc service-manuelle-lymphdrainage"
+                >
+                  <h2 class="card-front__heading">Sieh mich an</h2>
+                </div>
+                <div class="card-front__bt">
+                  <p class="card-front__text-view">Manuelle Lymphdrainage</p>
+                </div>
+              </div>
+              <!--End flip Card Front Side-->
+              <!--Start flip Card Back Side-->
+              <div class="card-back">
+                <img
+                  class="image__container"
+                  src="project-12.jpg"
+                  alt="image"
+                />
+              </div>
+              <!--End flip Card Back Side-->
+            </div>
+          </div>
+          <!--Start flip Card Inside Side-->
+          <div class="inside-page" id="lymphdrainage">
+            <div class="inside-page__container">
+              <h3 class="inside-page__heading">Manuelle Lymphdrainage</h3>
+              <p class="inside-page__text">
+                Ist eine sanfte Massagetechnik zur Behandlung von sekundären und
+                primären Lymphödeme.
+              </p>
+              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
+            </div>
+            <!--End flip Card Inside Side-->
+          </div>
+        </div>
+      </div>
+      <div class="card-area">
+        <div class="card service">
+          <!--Start flip Card-->
+          <div class="flip-card">
+            <div class="flip-card__container">
+              <!--Start flip Card Front Side-->
+              <div class="card-front">
+                <div
                   class="card-front__text card-front__text--disc service-pmr-nach-jakobsonn"
                 >
                   <h2 class="card-front__heading">Sieh mich an</h2>
@@ -183,8 +232,6 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
-      </div>
-      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -221,6 +268,8 @@
             <!--End flip Card Inside Side-->
           </div>
         </div>
+      </div>
+      <div class="card-area">
         <div class="card service">
           <!--Start flip Card-->
           <div class="flip-card">
@@ -233,7 +282,9 @@
                   <h2 class="card-front__heading">Sieh mich an</h2>
                 </div>
                 <div class="card-front__bt">
-                  <p class="card-front__text-view">Ernährung</p>
+                  <p class="card-front__text-view">
+                    Ernährung nach fünf Elementen
+                  </p>
                 </div>
               </div>
               <!--End flip Card Front Side-->
@@ -251,53 +302,13 @@
           <!--Start flip Card Inside Side-->
           <div class="inside-page" id="ernährung">
             <div class="inside-page__container">
-              <h3 class="inside-page__heading">Ernährung</h3>
+              <h3 class="inside-page__heading">
+                Die Ernährung nach den fünf Elementen
+              </h3>
               <p class="inside-page__text">
                 Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
                 lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
                 gleicht aus, ist Genuss und Freude.
-              </p>
-              <a href="#" class="inside-page__btn inside-page__btn--text"></a>
-            </div>
-            <!--End flip Card Inside Side-->
-          </div>
-        </div>
-      </div>
-      <div class="card-area">
-        <div class="card service">
-          <!--Start flip Card-->
-          <div class="flip-card">
-            <div class="flip-card__container">
-              <!--Start flip Card Front Side-->
-              <div class="card-front">
-                <div
-                  class="card-front__text card-front__text--disc service-manuelle-lymphdrainage"
-                >
-                  <h2 class="card-front__heading">Sieh mich an</h2>
-                </div>
-                <div class="card-front__bt">
-                  <p class="card-front__text-view">Manuelle Lymphdrainage</p>
-                </div>
-              </div>
-              <!--End flip Card Front Side-->
-              <!--Start flip Card Back Side-->
-              <div class="card-back">
-                <img
-                  class="image__container"
-                  src="project-12.jpg"
-                  alt="image"
-                />
-              </div>
-              <!--End flip Card Back Side-->
-            </div>
-          </div>
-          <!--Start flip Card Inside Side-->
-          <div class="inside-page" id="lymphdrainage">
-            <div class="inside-page__container">
-              <h3 class="inside-page__heading">Manuelle Lymphdrainage</h3>
-              <p class="inside-page__text">
-                Ist eine sanfte Massagetechnik zur Behandlung von sekundären und
-                primären Lymphödeme.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -608,37 +619,7 @@
       </div>
     </div>
     <!--End Features-->
-    <div id="galarie" class="projects-sec">
-      <h2>Galarie</h2>
-      <p class="line"></p>
-      <div class="row">
-        <img
-          class="col-lg-4 resize-img resize-img-top"
-          src="project-13.png"
-          alt=""
-        />
-        <img class="col-lg-4 resize-img" src="project-2.png" alt="" />
-        <img class="col-lg-4 resize-img" src="project-14.png" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg-6 resize-img-center" src="project-15.png" alt="" />
-        <img class="col-lg-6 resize-img-center" src="project-5.png" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg-4 resize-img-bottom" src="project-9.png" alt="" />
-        <img class="col-lg-4 resize-img" src="project-10.png" alt="" />
-        <img class="col-lg-4 resize-img" src="project-11.png" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg-6 resize-img" src="project-7.png" alt="" />
-        <img class="col-lg-6 resize-img" src="project-8.png" alt="" />
-      </div>
-      <div class="row">
-        <img class="col-lg-4 resize-img-center" src="project-16.jpg" alt="" />
-        <img class="col-lg-4 resize-img" src="project-4.jpg" alt="" />
-        <img class="col-lg-4 resize-img" src="project-12.jpg" alt="" />
-      </div>
-    </div>
+    <!--Start About me -->
     <div class="about-me-container" id="about-me">
       <div class="about-me-box">
         <div class="about-img-container">
@@ -672,7 +653,44 @@
             komplementäre physiotherapeutische Therapie und traditioneller
             chinesischen Medizin in Stahnsdorf/ Kienwerder, Alte Feldmark 11a.
           </p>
+          <a
+            class="about-praxis"
+            href="https://pdfhost.io/v/fHBNRC00m_Einleitung_PDF"
+            target="_blank"
+            >Über Praxis</a
+          >
         </div>
+      </div>
+    </div>
+    <div id="galarie" class="projects-sec">
+      <h2>Galarie</h2>
+      <p class="line"></p>
+      <div class="row">
+        <img
+          class="col-lg-4 resize-img resize-img-top"
+          src="project-13.png"
+          alt=""
+        />
+        <img class="col-lg-4 resize-img" src="project-2.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-14.png" alt="" />
+      </div>
+      <div class="row">
+        <img class="col-lg-6 resize-img-center" src="project-15.png" alt="" />
+        <img class="col-lg-6 resize-img-center" src="project-5.png" alt="" />
+      </div>
+      <div class="row">
+        <img class="col-lg-4 resize-img-bottom" src="project-9.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-10.png" alt="" />
+        <img class="col-lg-4 resize-img" src="project-11.png" alt="" />
+      </div>
+      <div class="row">
+        <img class="col-lg-6 resize-img" src="project-7.png" alt="" />
+        <img class="col-lg-6 resize-img" src="project-8.png" alt="" />
+      </div>
+      <div class="row">
+        <img class="col-lg-4 resize-img-center" src="project-16.jpg" alt="" />
+        <img class="col-lg-4 resize-img" src="project-4.jpg" alt="" />
+        <img class="col-lg-4 resize-img" src="project-12.jpg" alt="" />
       </div>
     </div>
     <div class="open-time-map" id="open-time-map">
@@ -790,6 +808,14 @@ $fontSizeTitle: 2rem;
 .overview {
   height: fit-content;
   margin-top: 5rem !important;
+  .about-praxis {
+    transition: ease-in-out 0.4s;
+    background: linear-gradient(to top left, #6d8b74, #c4dfaa);
+    &:hover {
+      background: $blueCol;
+      color: $whiteCol;
+    }
+  }
 }
 .overview-text {
   width: 60% !important;
@@ -799,10 +825,10 @@ $fontSizeTitle: 2rem;
   padding: 2rem !important;
   padding-top: 2rem;
   padding-top: 5rem !important;
-  letter-spacing: 2px;
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
   text-align: center;
+  letter-spacing: 1px;
   @media (max-width: 850px) {
     width: 88% !important;
     .overview-text-content {
@@ -1292,9 +1318,10 @@ $fontSizeTitle: 2rem;
 //Start About me Section
 .about-me-container {
   border-bottom: 2px solid #d60028;
+  margin-bottom: 12rem;
   //background: #dfdfdf;
   background: #ffffff;
-  margin-top: 8rem;
+  margin-top: 12rem;
   h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 4rem;
@@ -1371,6 +1398,13 @@ $fontSizeTitle: 2rem;
       }
     }
   }
+  .about-praxis {
+    background: #d60028;
+    color: $whiteCol;
+    &:hover {
+      background: $blueCol;
+    }
+  }
 }
 //End About me Section
 //open time and map
@@ -1439,5 +1473,18 @@ $fontSizeTitle: 2rem;
       }
     }
   }
+}
+.about-praxis {
+  height: 2.5rem;
+  width: 8rem;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.6rem;
+  color: $whiteCol;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+  text-decoration: none;
+  border-radius: 10%;
 }
 </style>

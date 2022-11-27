@@ -56,7 +56,9 @@
                       >Manuelle Lymphdrainage</a
                     >
                     <a class="dropdown-item" href="#schröpfen">Schröpfen</a>
-                    <a class="dropdown-item" href="#ernährung">Ernährung</a>
+                    <a class="dropdown-item" href="#ernährung"
+                      >Ernährung nach fünf Elementen</a
+                    >
                     <a class="dropdown-item" href="#akupunktur">Akupunktur</a>
                     <a class="dropdown-item" href="#moxibution">Moxibution</a>
                     <a class="dropdown-item" href="#arzneimittel"
@@ -88,14 +90,23 @@
                     Kurse
                   </a>
                   <div class="dropdown-menu" id="dropdownKurseLink">
-                    <a class="dropdown-item" href="#pmr">PMR</a>
-                    <a class="dropdown-item" href="#nordic">Nordic Walking</a>
-                    <a class="dropdown-item" href="#qigong">Qigong</a>
                     <a
                       class="dropdown-item"
-                      href="https://pdfhost.io/v/AnfS8g8sH_Kurse"
+                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
                       target="_blank"
-                      >Erklärung</a
+                      >PMR</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
+                      target="_blank"
+                      >Nordic Walking</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
+                      target="_blank"
+                      >Qigong</a
                     >
                     <a
                       class="dropdown-item"
@@ -160,8 +171,8 @@
                 <li class="fw-bold">
                   Email:
                   <span class="fw-normal">
-                    <a href="mailto: kp.tcm.hahm@gmail.com" target="_blank"
-                      >kp.tcm.hahm@gmail.com</a
+                    <a href="mailto: infos@kp-tcm-hahm.de" target="_blank"
+                      >infos@kp-tcm-hahm.de</a
                     ></span
                   >
                 </li>
