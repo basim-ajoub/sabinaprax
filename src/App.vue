@@ -192,6 +192,12 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-12 rights">
+            <a
+              href="https://www.disclaimer.de/disclaimer.htm?farbe=FFFFFF/000000/000000/000000"
+              target="_blank"
+              class="disclaimer"
+              >Disclaimer
+            </a>
             <p class="text-white">©2022 SABINE HAHM All Rights Reserved</p>
           </div>
         </div>
@@ -582,6 +588,9 @@ img {
     order: 3;
     padding-top: 3rem;
     color: white !important;
+    .text-white {
+      margin-top: 0.4rem;
+    }
   }
 }
 @media (max-width: 700px) {
@@ -617,5 +626,14 @@ img {
 carousel-item-2,
 #carousel-item-3 {
   transition: 0.8s ease-in-out;
+}
+.disclaimer {
+  font-family: "News Cycle", sans-serif;
+  font-weight: bolder;
+  color: $blueCol;
+  transition: ease-in-out 0.4s;
+  &:hover {
+    color: $whiteCol;
+  }
 }
 </style>

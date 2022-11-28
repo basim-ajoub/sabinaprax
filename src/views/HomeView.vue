@@ -12,13 +12,13 @@
           ihnen alle Informationen zusammengestellt, die sie brauchen, um sich
           vertrauensvoll mit ihren Beschwerden an mich zu wenden. Im Mittelpunkt
           meiner Arbeit, stehen nicht nur ihre körperlichen Beschwerden, sondern
-          auch ihre auch ihre körperliche Konstitution und ihre individuelle
+          auch ihre körperliche Konstitution und ihre individuelle
           Lebenssituation. So können wir gemeinsam ein Konzept für ihre
           Gesundheit und ihr Wohlbefinden erarbeiten.
         </p>
         <a
           class="about-praxis"
-          href="https://pdfhost.io/v/fHBNRC00m_Einleitung_PDF"
+          href="https://pdfhost.io/v/.yW3IRH54_Einleitung_PDF"
           target="_blank"
           >Mehr ></a
         >
@@ -655,9 +655,9 @@
           </p>
           <a
             class="about-praxis"
-            href="https://pdfhost.io/v/fHBNRC00m_Einleitung_PDF"
+            href="mailto: sabine.hahm@kp-tcm-hahm.de"
             target="_blank"
-            >Über Praxis</a
+            >Kontakt</a
           >
         </div>
       </div>
