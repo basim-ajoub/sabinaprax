@@ -7,18 +7,18 @@
       <div class="container overview-text">
         <p class="overview-text-content">
           Willkommen in meiner Praxis für komplementäre-physiotherapeutische und
-          traditionellen chinesischen Medizin. Ich freu mich über ihren Besuch
-          und ihr Interesse an alternativen Therapien. Nachfolgend habe ich
-          ihnen alle Informationen zusammengestellt, die sie brauchen, um sich
-          vertrauensvoll mit ihren Beschwerden an mich zu wenden. Im Mittelpunkt
-          meiner Arbeit, stehen nicht nur ihre körperlichen Beschwerden, sondern
-          auch ihre körperliche Konstitution und ihre individuelle
-          Lebenssituation. So können wir gemeinsam ein Konzept für ihre
-          Gesundheit und ihr Wohlbefinden erarbeiten.
+          traditionelle chinesische Medizin. Ich freu mich über Ihren Besuch
+          und Ihr Interesse an alternativen Therapien. Nachfolgend habe ich
+          Ihnen alle Informationen zusammengestellt, die sie brauchen, um sich
+          vertrauensvoll mit Ihren Beschwerden an mich zu wenden. Im Mittelpunkt
+          meiner Arbeit, stehen nicht nur Ihre körperlichen Beschwerden, sondern
+          auch Ihre körperliche Konstitution und Ihre individuelle
+          Lebenssituation. So können wir gemeinsam ein Konzept für Ihre
+          Gesundheit und Ihr Wohlbefinden erarbeiten.
         </p>
         <a
           class="about-praxis"
-          href="https://pdfhost.io/v/.yW3IRH54_Einleitung_PDF"
+          href="https://pdfhost.io/v/JFyZQJ9yo_Einleitung_PDF"
           target="_blank"
           >Mehr ></a
         >
@@ -31,7 +31,7 @@
       <div class="row">
         <p>
           Alle hier aufgeführten Leistungen gelten für Selbstzahler und
-          Privatpatienten. Bitte erkundigen sie sich bei ihrer
+          Privatpatienten. Bitte erkundigen sie sich bei Ihrer
           Krankenversicherung, welche Kosten übernommen werden.
         </p>
       </div>
@@ -487,7 +487,7 @@
                 Gastritis, Verstopfungen, Asthma, Schlafstörungen, Migräne, HNO-
                 Erkrankungen, Kiefergelenkbeschwerden, Gynäkologische
                 Erkrankungen. Als Prävention reguliert sie das vegetative
-                Nervensystem und stärkt somit das Qi und ihr Immunsystem.
+                Nervensystem und stärkt somit das Qi und Ihr Immunsystem.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
             </div>
@@ -606,7 +606,7 @@
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Geschenk-Gutscheine</h3>
               <p class="inside-page__text">
-                Überraschen Sie ihre Lieben zu Weihnachten, Geburtstag oder um
+                Überraschen Sie Ihre Lieben zu Weihnachten, Geburtstag oder um
                 Danke zu sagen. Mit einem Wellnessgutschein für eine klassische
                 Massage, HotStone-Massage, einer Tuina Prävention oder zur
                 Physiotherapie.
@@ -650,8 +650,8 @@
             TUINA Akademie in Leipzig, und dem Qigong am ShenMen-Institut.
             Ernährung und Kräutertherapien sind ein weiterer Schwerpunkt. Seit
             11/2022 betreibe ich nebenberuflich meine eigene Praxis für
-            komplementäre physiotherapeutische Therapie und traditioneller
-            chinesischen Medizin in Stahnsdorf/ Kienwerder, Alte Feldmark 11a.
+            komplementäre physiotherapeutische Therapie und traditionelle
+            chinesische Medizin in Stahnsdorf/ Kienwerder, Alte Feldmark 11a.
           </p>
           <a
             class="about-praxis"
@@ -663,7 +663,7 @@
       </div>
     </div>
     <div id="galarie" class="projects-sec">
-      <h2>Galarie</h2>
+      <h2>Galerie</h2>
       <p class="line"></p>
       <div class="row">
         <img
@@ -1343,7 +1343,7 @@ $fontSizeTitle: 2rem;
     display: flex;
     flex-direction: row;
     position: relative;
-    @media (max-width: 1000px) {
+    @media (max-width: 1400px) {
       flex-direction: column;
     }
     .about-img-container {
@@ -1351,7 +1351,7 @@ $fontSizeTitle: 2rem;
       margin-bottom: 0;
       background: #f6f6f6;
       margin: 0 !important;
-      @media (max-width: 1000px) {
+      @media (max-width: 1400px) {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1366,7 +1366,7 @@ $fontSizeTitle: 2rem;
       }
       img {
         object-fit: cover;
-        @media (max-width: 1000px) {
+        @media (max-width: 1400px) {
           border-radius: 30%;
           mix-blend-mode: multiply;
           margin-bottom: -11rem;
@@ -1381,7 +1381,7 @@ $fontSizeTitle: 2rem;
       right: 0;
       padding-top: 3rem;
       position: absolute;
-      @media (max-width: 1000px) {
+      @media (max-width: 1400px) {
         position: initial;
         width: 100%;
         margin-top: 11rem;
@@ -1392,7 +1392,7 @@ $fontSizeTitle: 2rem;
         width: 100%;
         text-align: justify;
         letter-spacing: 1.3px;
-        @media (max-width: 1000px) {
+        @media (max-width: 1400px) {
           letter-spacing: 0;
         }
       }

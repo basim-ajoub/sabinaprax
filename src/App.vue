@@ -118,7 +118,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#galarie">Galarie </a>
+                <a class="nav-link" href="#galarie">Galerie </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#footer">kontakt</a>
