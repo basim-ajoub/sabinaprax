@@ -92,27 +92,27 @@
                   <div class="dropdown-menu" id="dropdownKurseLink">
                     <a
                       class="dropdown-item"
-                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
+                      href="https://www.docdroid.net/sACDlOy/pmr-kurs-docx"
                       target="_blank"
                       >PMR</a
                     >
                     <a
                       class="dropdown-item"
-                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
+                      href="https://www.docdroid.net/dYHX8pO/nordicwalking-kurs-docx"
                       target="_blank"
                       >Nordic Walking</a
                     >
                     <a
                       class="dropdown-item"
-                      href="https://pdfhost.io/v/dQhgxjZz3_Kurse_PDF"
+                      href="https://www.docdroid.net/SM2ZgFY/qigong-kurse-docx"
                       target="_blank"
                       >Qigong</a
                     >
                     <a
                       class="dropdown-item"
-                      href="https://pdfhost.io/v/UrAK6a0~v_Preise_PDF"
+                      href="https://www.docdroid.net/6OwEQPE/vortrage-ernahrung-und-tcm-docx"
                       target="_blank"
-                      >Preise</a
+                      >Vorträge</a
                     >
                   </div>
                 </div>
@@ -386,6 +386,18 @@ $fontSizeTitle: 2rem;
   }
   .nav-container {
     max-width: 100%;
+    @media (max-width: 400px) {
+      .logo-name{
+        padding-left: 0;
+        a{
+        margin-left: 4px !important;
+        margin-right: 0!important;
+      }
+      }
+      .logo-container{
+        padding-left: 0 !important;
+      }
+    }
     .container-fluid {
       width: 100%;
       justify-content: flex-start !important;

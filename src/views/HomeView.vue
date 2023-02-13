@@ -1,5 +1,11 @@
 <template>
   <div class="home">
+    <!-- Special Note-->
+    <div class="note-info">
+      <div class="info notes">
+        <p><strong>Info!</strong> Am <span>18.03.2023 14-18 Uhr</span> werde ich einen Tag der offenen Tür machen</p>
+      </div>
+    </div>
     <!--Start OverView-->
     <div id="overview" class="overview text-centir">
       <h2>Einleitung</h2>
@@ -307,7 +313,7 @@
               </h3>
               <p class="inside-page__text">
                 Die Ernährung nach den fünf Elementen ist leicht zu erlernen und
-                lässt sich gut in den Alltag integrieren. Sie kräftigt, heilt,
+                lässt sich gut in den Alltag integrieren. Sie kräftigt,
                 gleicht aus, ist Genuss und Freude.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
@@ -485,8 +491,8 @@
                 Mit speziellen Griftechniken und Akupressur lindert die TUINA,
                 als manuelle Therapie der TCM, Schmerzen, Bluthochdruck,
                 Gastritis, Verstopfungen, Asthma, Schlafstörungen, Migräne, HNO-
-                Erkrankungen, Kiefergelenkbeschwerden, Gynäkologische
-                Erkrankungen. Als Prävention reguliert sie das vegetative
+                Erkrankungen, Kiefergelenkbeschwerden,
+                gynäkologische Beschwerden. Als Prävention reguliert sie das vegetative
                 Nervensystem und stärkt somit das Qi und Ihr Immunsystem.
               </p>
               <a href="#" class="inside-page__btn inside-page__btn--text"></a>
@@ -563,7 +569,7 @@
           <div class="inside-page">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">
-                TIUNA - Chinesische Heilmassage
+                Qigong Modul Basiskurs für Neueinsteiger
               </h3>
               <p class="inside-page__text">
                 In Kleinstgruppen (max. 5 Teilnehmer) lernen und üben sie das
@@ -606,8 +612,8 @@
             <div class="inside-page__container">
               <h3 class="inside-page__heading">Geschenk-Gutscheine</h3>
               <p class="inside-page__text">
-                Überraschen Sie Ihre Lieben zu Weihnachten, Geburtstag oder um
-                Danke zu sagen. Mit einem Wellnessgutschein für eine klassische
+                Überraschen Sie Ihre Lieben zu Ostern, Geburtstag oder um
+                Danke zu sagen. Mit einem Gutschein für eine klassische
                 Massage, HotStone-Massage, einer Tuina Prävention oder zur
                 Physiotherapie.
               </p>
@@ -745,7 +751,8 @@ $SkyCol: #c4dfaa;
 $fontSize: 4rem;
 $fontSizeTitle: 2rem;
 .home {
-  max-width: 99.1%;
+  //max-width: 99.1%;
+  max-width: 100%;
   text-align: center;
 
   h2 {
@@ -804,7 +811,43 @@ $fontSizeTitle: 2rem;
     margin-top: 15px;
   }
 }
-
+.note-info{
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 2rem;
+  font-family: "News Cycle", sans-serif;
+  @media (max-width: 500px) {
+    font-size: 1.4rem;
+    p{
+      font-weight: 300;
+      span{
+        font-weight: bolder;
+      }
+    }
+  }
+  .notes {
+    margin-bottom: 1rem;
+    padding: 4px 12px;
+    p{
+      margin-top: 0.5rem;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+  .info {
+    background: linear-gradient(to top left, $greenCol, #c4dfaa);
+    border-left: 6px solid $greenCol;
+    border-right: 6px solid $greenCol;
+    strong{
+      font-family: "Bebas Neue", cursive;
+      font-size: 2.3rem;
+      @media (max-width: 500px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
 .overview {
   height: fit-content;
   margin-top: 5rem !important;
@@ -882,6 +925,7 @@ $fontSizeTitle: 2rem;
 }
 
 .projects-sec {
+  contain: content;
   img {
     margin-bottom: 2rem;
     padding-right: 0;
