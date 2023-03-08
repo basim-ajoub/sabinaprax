@@ -3,7 +3,7 @@
     <!-- Special Note-->
     <div class="note-info">
       <div class="info notes">
-        <p><strong>Info!</strong> Am <span>18.03.2023 14-18 Uhr</span> werde ich einen Tag der offenen Tür machen</p>
+        <p><strong>Info!</strong> Am <span>18.03.2023 14-18 Uhr</span> werde ich einen Tag der offenen Tür durchführen</p>
       </div>
     </div>
     <!--Start OverView-->
@@ -569,7 +569,7 @@
           <div class="inside-page">
             <div class="inside-page__container">
               <h3 class="inside-page__heading">
-                Qigong Modul Basiskurs für Neueinsteiger
+                Qigong
               </h3>
               <p class="inside-page__text">
                 In Kleinstgruppen (max. 5 Teilnehmer) lernen und üben sie das
